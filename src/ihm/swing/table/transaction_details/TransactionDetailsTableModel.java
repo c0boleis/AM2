@@ -7,6 +7,8 @@ import javax.swing.JButton;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
+import org.apache.log4j.Logger;
+
 import controller.User;
 import ihm.swing.Window;
 import ihm.swing.table.account.AccountTableSwing;
@@ -28,6 +30,8 @@ public class TransactionDetailsTableModel extends DefaultTableModel {
 	 * 
 	 */
 	private static final long serialVersionUID = -1336069244492049269L;
+	
+	private static final Logger LOGGER = Logger.getLogger(TransactionDetailsTableModel.class);  
 
 	private static final String[] columnNames = {"Category","Comment","Amount","Quantity","Unit","Action"};
 
@@ -148,11 +152,29 @@ public class TransactionDetailsTableModel extends DefaultTableModel {
 		if(emptyTransactionDetail == null) {
 			try {
 				emptyTransactionDetail = new EmptyTransactionDetail();
+				calculEmptyTransactionAmount();
 			} catch (AmountException e) {
 				e.printStackTrace();
 			}
 		}
 		return emptyTransactionDetail;
+	}
+	
+	/**
+	 * @since 1.2
+	 * calcul the empty transaction amount
+	 */
+	public void calculEmptyTransactionAmount() {
+		double amount = transaction.getAmount();
+		TransactionDetail[] transactionDetails = transaction.getTransactionDetails();
+		for(TransactionDetail transactionDetail : transactionDetails) {
+			amount -= transactionDetail.getAmount();
+		}
+		try {
+			getEmptyTransactionDetail().setAmount(amount);
+		} catch (AmountException e) {
+			LOGGER.warn("calculEmptyTransactionAmount error", e);
+		}
 	}
 	
 	/* (non-Javadoc)

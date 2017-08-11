@@ -1,236 +1,475 @@
-2017-08-02T10:30:49.137 INFO  [controller.User] - Application start
-2017-08-02T10:30:49.138 INFO  [controller.User] - Init user
-2017-08-02T10:30:49.140 INFO  [controller.User] - account add
-2017-08-02T10:30:49.144 DEBUG [model.Transaction] - 01/08/2017 16:47:19;course;null;0.0;false categorySet
-2017-08-02T10:30:49.144 DEBUG [model.Transaction] - 01/08/2017 16:47:19;course;Paris;0.0;false commentSet
-2017-08-02T10:30:49.146 DEBUG [model.Transaction] - 01/08/2017 16:47:19;course;Paris;-7.06;false amountSet
-2017-08-02T10:30:49.147 DEBUG [model.Transaction] - course/null/0.0/null categorySet
-2017-08-02T10:30:49.147 DEBUG [model.Transaction] - course/MONOP 1-2ECR 50CL/0.0/null commentSet
-2017-08-02T10:30:49.147 DEBUG [model.Transaction] - course/MONOP 1-2ECR 50CL/-1.4/null amountSet
-2017-08-02T10:30:49.148 DEBUG [model.Transaction] - course/null/0.0/null categorySet
-2017-08-02T10:30:49.148 DEBUG [model.Transaction] - course/TOMATE GRAPPE/0.0/null commentSet
-2017-08-02T10:30:49.148 DEBUG [model.Transaction] - course/TOMATE GRAPPE/-0.67/null amountSet
-2017-08-02T10:30:49.148 DEBUG [model.Transaction] - équipement/null/0.0/null categorySet
-2017-08-02T10:30:49.148 DEBUG [model.Transaction] - équipement/Couteau à dent/0.0/null commentSet
-2017-08-02T10:30:49.149 DEBUG [model.Transaction] - équipement/Couteau à dent/-4.99/null amountSet
-2017-08-02T10:30:49.152 INFO  [model.Account] - 01/08/2017 16:47:19;course;Paris;-7.06;false;course/MONOP 1-2ECR 50CL/-1.4/L|1.0;course/TOMATE GRAPPE/-0.67/g|520.0;équipement/Couteau à dent/-4.99/pcs|1.0 add
-2017-08-02T10:30:49.152 DEBUG [model.Transaction] - 01/08/2017 16:46:57;Livre;null;0.0;false categorySet
-2017-08-02T10:30:49.153 DEBUG [model.Transaction] - 01/08/2017 16:46:57;Livre;HTML et CSS;0.0;false commentSet
-2017-08-02T10:30:49.153 DEBUG [model.Transaction] - 01/08/2017 16:46:57;Livre;HTML et CSS;-5.0;false amountSet
-2017-08-02T10:30:49.153 INFO  [model.Account] - 01/08/2017 16:46:57;Livre;HTML et CSS;-5.0;false add
-2017-08-02T10:30:49.154 DEBUG [model.Transaction] - 01/08/2017 09:43:12;Transfert;null;0.0;false categorySet
-2017-08-02T10:30:49.154 DEBUG [model.Transaction] - 01/08/2017 09:43:12;Transfert;from 4-----------8;0.0;false commentSet
-2017-08-02T10:30:49.154 DEBUG [model.Transaction] - 01/08/2017 09:43:12;Transfert;from 4-----------8;350.0;false amountSet
-2017-08-02T10:30:49.155 INFO  [model.Account] - 01/08/2017 09:43:12;Transfert;from 4-----------8;350.0;true add
-2017-08-02T10:30:49.155 DEBUG [model.Transaction] - 01/08/2017 09:42:54;Metro;null;0.0;false categorySet
-2017-08-02T10:30:49.155 DEBUG [model.Transaction] - 01/08/2017 09:42:54;Metro;semaine 31/07 au 6/08;0.0;false commentSet
-2017-08-02T10:30:49.156 DEBUG [model.Transaction] - 01/08/2017 09:42:54;Metro;semaine 31/07 au 6/08;-22.15;false amountSet
-2017-08-02T10:30:49.156 INFO  [model.Account] - 01/08/2017 09:42:54;Metro;semaine 31/07 au 6/08;-22.15;false add
-2017-08-02T10:30:49.157 DEBUG [model.Transaction] - 01/08/2017 09:42:00;course;null;0.0;false categorySet
-2017-08-02T10:30:49.157 DEBUG [model.Transaction] - 01/08/2017 09:42:00;course;Paris;0.0;false commentSet
-2017-08-02T10:30:49.157 DEBUG [model.Transaction] - 01/08/2017 09:42:00;course;Paris;-6.11;false amountSet
-2017-08-02T10:30:49.157 INFO  [model.Account] - 01/08/2017 09:42:00;course;Paris;-6.11;true add
-2017-08-02T10:30:49.158 DEBUG [model.Transaction] - 01/08/2017 09:30:57;telphone;null;0.0;false categorySet
-2017-08-02T10:30:49.158 DEBUG [model.Transaction] - 01/08/2017 09:30:57;telphone;facture;0.0;false commentSet
-2017-08-02T10:30:49.158 DEBUG [model.Transaction] - 01/08/2017 09:30:57;telphone;facture;-25.0;false amountSet
-2017-08-02T10:30:49.159 INFO  [model.Account] - 01/08/2017 09:30:57;telphone;facture;-25.0;true add
-2017-08-02T10:30:49.159 DEBUG [model.Transaction] - 30/07/2017 14:54:51;course;null;0.0;false categorySet
-2017-08-02T10:30:49.160 DEBUG [model.Transaction] - 30/07/2017 14:54:51;course;Paris;0.0;false commentSet
-2017-08-02T10:30:49.160 DEBUG [model.Transaction] - 30/07/2017 14:54:51;course;Paris;-3.29;false amountSet
-2017-08-02T10:30:49.160 DEBUG [model.Transaction] - course/null/0.0/null categorySet
-2017-08-02T10:30:49.160 DEBUG [model.Transaction] - course/FLAMMEKUECH LAR.OI/0.0/null commentSet
-2017-08-02T10:30:49.161 DEBUG [model.Transaction] - course/FLAMMEKUECH LAR.OI/-3.29/null amountSet
-2017-08-02T10:30:49.161 INFO  [model.Account] - 30/07/2017 14:54:51;course;Paris;-3.29;true;course/FLAMMEKUECH LAR.OI/-3.29/pcs|1.0 add
-2017-08-02T10:30:49.162 DEBUG [model.Transaction] - 29/07/2017 17:46:39;course;null;0.0;false categorySet
-2017-08-02T10:30:49.162 DEBUG [model.Transaction] - 29/07/2017 17:46:39;course;Paris;0.0;false commentSet
-2017-08-02T10:30:49.162 DEBUG [model.Transaction] - 29/07/2017 17:46:39;course;Paris;-30.25;false amountSet
-2017-08-02T10:30:49.163 INFO  [model.Account] - 29/07/2017 17:46:39;course;Paris;-30.25;true add
-2017-08-02T10:30:49.163 DEBUG [model.Transaction] - 29/07/2017 17:42:58;course;null;0.0;false categorySet
-2017-08-02T10:30:49.163 DEBUG [model.Transaction] - 29/07/2017 17:42:58;course;Paris;0.0;false commentSet
-2017-08-02T10:30:49.164 DEBUG [model.Transaction] - 29/07/2017 17:42:58;course;Paris;-22.19;false amountSet
-2017-08-02T10:30:49.164 DEBUG [model.Transaction] - course/null/0.0/null categorySet
-2017-08-02T10:30:49.165 DEBUG [model.Transaction] - course/TOMATE GRAPPE/0.0/null commentSet
-2017-08-02T10:30:49.165 DEBUG [model.Transaction] - course/TOMATE GRAPPE/-1.84/null amountSet
-2017-08-02T10:30:49.166 DEBUG [model.Transaction] - produits entretien/null/0.0/null categorySet
-2017-08-02T10:30:49.166 DEBUG [model.Transaction] - produits entretien/VANISH DETACH PIST/0.0/null commentSet
-2017-08-02T10:30:49.166 DEBUG [model.Transaction] - produits entretien/VANISH DETACH PIST/-6.11/null amountSet
-2017-08-02T10:30:49.166 DEBUG [model.Transaction] - course/null/0.0/null categorySet
-2017-08-02T10:30:49.167 DEBUG [model.Transaction] - course/BISC. TAB. CHOC LAIT/0.0/null commentSet
-2017-08-02T10:30:49.167 DEBUG [model.Transaction] - course/BISC. TAB. CHOC LAIT/-0.75/null amountSet
-2017-08-02T10:30:49.167 DEBUG [model.Transaction] - produits entretien/null/0.0/null categorySet
-2017-08-02T10:30:49.167 DEBUG [model.Transaction] - produits entretien/SKIP LESS TABLET A/0.0/null commentSet
-2017-08-02T10:30:49.168 DEBUG [model.Transaction] - produits entretien/SKIP LESS TABLET A/-10.79/null amountSet
-2017-08-02T10:30:49.168 INFO  [model.Account] - 29/07/2017 17:42:58;course;Paris;-22.19;true;course/TOMATE GRAPPE/-1.84/Kg|0.74;produits entretien/VANISH DETACH PIST/-6.11/sachet|1.0;course/BISC. TAB. CHOC LAIT/-0.75/pcs|1.0;produits entretien/SKIP LESS TABLET A/-10.79/sachets|28.0 add
-2017-08-02T10:30:49.169 DEBUG [model.Transaction] - 29/07/2017 17:33:49;coiffeur;null;0.0;false categorySet
-2017-08-02T10:30:49.169 DEBUG [model.Transaction] - 29/07/2017 17:33:49;coiffeur;Paris;0.0;false commentSet
-2017-08-02T10:30:49.169 DEBUG [model.Transaction] - 29/07/2017 17:33:49;coiffeur;Paris;-26.0;false amountSet
-2017-08-02T10:30:49.170 INFO  [model.Account] - 29/07/2017 17:33:49;coiffeur;Paris;-26.0;true add
-2017-08-02T10:30:49.170 DEBUG [model.Transaction] - 29/07/2017 16:38:55;équipement;null;0.0;false categorySet
-2017-08-02T10:30:49.170 DEBUG [model.Transaction] - 29/07/2017 16:38:55;équipement;balance;0.0;false commentSet
-2017-08-02T10:30:49.171 DEBUG [model.Transaction] - 29/07/2017 16:38:55;équipement;balance;-14.99;false amountSet
-2017-08-02T10:30:49.171 INFO  [model.Account] - 29/07/2017 16:38:55;équipement;balance;-14.99;true add
-2017-08-02T10:30:49.171 DEBUG [model.Transaction] - 29/07/2017 16:38:08;vetement;null;0.0;false categorySet
-2017-08-02T10:30:49.172 DEBUG [model.Transaction] - 29/07/2017 16:38:08;vetement;pantalon;0.0;false commentSet
-2017-08-02T10:30:49.172 DEBUG [model.Transaction] - 29/07/2017 16:38:08;vetement;pantalon;-129.0;false amountSet
-2017-08-02T10:30:49.172 INFO  [model.Account] - 29/07/2017 16:38:08;vetement;pantalon;-129.0;true add
-2017-08-02T10:30:49.173 DEBUG [model.Transaction] - 27/07/2017 17:00:28;Retrait;null;0.0;false categorySet
-2017-08-02T10:30:49.173 DEBUG [model.Transaction] - 27/07/2017 17:00:28;Retrait;Paris;0.0;false commentSet
-2017-08-02T10:30:49.173 DEBUG [model.Transaction] - 27/07/2017 17:00:28;Retrait;Paris;-20.0;false amountSet
-2017-08-02T10:30:49.173 DEBUG [model.Transaction] - piscine/null/0.0/null categorySet
-2017-08-02T10:30:49.174 DEBUG [model.Transaction] - piscine/Paris/0.0/null commentSet
-2017-08-02T10:30:49.174 DEBUG [model.Transaction] - piscine/Paris/-3.5/null amountSet
-2017-08-02T10:30:49.174 DEBUG [model.Transaction] - Bar/null/0.0/null categorySet
-2017-08-02T10:30:49.174 DEBUG [model.Transaction] - Bar/Paris/0.0/null commentSet
-2017-08-02T10:30:49.174 DEBUG [model.Transaction] - Bar/Paris/-10.0/null amountSet
-2017-08-02T10:30:49.175 INFO  [model.Account] - 27/07/2017 17:00:28;Retrait;Paris;-20.0;true;piscine/Paris/-3.5/pcs|1.0;Bar/Paris/-10.0/pcs|1.0 add
-2017-08-02T10:30:49.175 DEBUG [model.Transaction] - 27/07/2017 15:20:49;extra course;null;0.0;false categorySet
-2017-08-02T10:30:49.175 DEBUG [model.Transaction] - 27/07/2017 15:20:49;extra course;Petit déjeuner;0.0;false commentSet
-2017-08-02T10:30:49.176 DEBUG [model.Transaction] - 27/07/2017 15:20:49;extra course;Petit déjeuner;-2.9;false amountSet
-2017-08-02T10:30:49.176 INFO  [model.Account] - 27/07/2017 15:20:49;extra course;Petit déjeuner;-2.9;true add
-2017-08-02T10:30:49.176 DEBUG [model.Transaction] - 27/07/2017 10:59:58;informatique;null;0.0;false categorySet
-2017-08-02T10:30:49.177 DEBUG [model.Transaction] - 27/07/2017 10:59:58;informatique;Clez USB 3.0;0.0;false commentSet
-2017-08-02T10:30:49.177 DEBUG [model.Transaction] - 27/07/2017 10:59:58;informatique;Clez USB 3.0;-12.99;false amountSet
-2017-08-02T10:30:49.177 INFO  [model.Account] - 27/07/2017 10:59:58;informatique;Clez USB 3.0;-12.99;true add
-2017-08-02T10:30:49.178 DEBUG [model.Transaction] - 27/07/2017 07:48:57;Santé;null;0.0;false categorySet
-2017-08-02T10:30:49.178 DEBUG [model.Transaction] - 27/07/2017 07:48:57;Santé;medecin;0.0;false commentSet
-2017-08-02T10:30:49.178 DEBUG [model.Transaction] - 27/07/2017 07:48:57;Santé;medecin;-25.0;false amountSet
-2017-08-02T10:30:49.178 INFO  [model.Account] - 27/07/2017 07:48:57;Santé;medecin;-25.0;true add
-2017-08-02T10:30:49.179 DEBUG [model.Transaction] - 27/07/2017 07:48:36;course;null;0.0;false categorySet
-2017-08-02T10:30:49.179 DEBUG [model.Transaction] - 27/07/2017 07:48:36;course;Paris;0.0;false commentSet
-2017-08-02T10:30:49.179 DEBUG [model.Transaction] - 27/07/2017 07:48:36;course;Paris;-2.45;false amountSet
-2017-08-02T10:30:49.180 INFO  [model.Account] - 27/07/2017 07:48:36;course;Paris;-2.45;true add
-2017-08-02T10:30:49.180 DEBUG [model.Transaction] - 26/07/2017 16:40:33;course;null;0.0;false categorySet
-2017-08-02T10:30:49.181 DEBUG [model.Transaction] - 26/07/2017 16:40:33;course;Paris;0.0;false commentSet
-2017-08-02T10:30:49.181 DEBUG [model.Transaction] - 26/07/2017 16:40:33;course;Paris;-4.78;false amountSet
-2017-08-02T10:30:49.181 INFO  [model.Account] - 26/07/2017 16:40:33;course;Paris;-4.78;true add
-2017-08-02T10:30:49.182 DEBUG [model.Transaction] - 26/07/2017 11:05:38;Transfert;null;0.0;false categorySet
-2017-08-02T10:30:49.182 DEBUG [model.Transaction] - 26/07/2017 11:05:38;Transfert;from 4-------------8;0.0;false commentSet
-2017-08-02T10:30:49.182 DEBUG [model.Transaction] - 26/07/2017 11:05:38;Transfert;from 4-------------8;350.0;false amountSet
-2017-08-02T10:30:49.184 INFO  [model.Account] - 26/07/2017 11:05:38;Transfert;from 4-------------8;350.0;true add
-2017-08-02T10:30:49.184 DEBUG [model.Transaction] - 26/07/2017 11:03:39;course;null;0.0;false categorySet
-2017-08-02T10:30:49.185 DEBUG [model.Transaction] - 26/07/2017 11:03:39;course;Pairs;0.0;false commentSet
-2017-08-02T10:30:49.185 DEBUG [model.Transaction] - 26/07/2017 11:03:39;course;Pairs;-32.52;false amountSet
-2017-08-02T10:30:49.185 INFO  [model.Account] - 26/07/2017 11:03:39;course;Pairs;-32.52;true add
-2017-08-02T10:30:49.186 DEBUG [model.Transaction] - 26/07/2017 11:03:09;course;null;0.0;false categorySet
-2017-08-02T10:30:49.186 DEBUG [model.Transaction] - 26/07/2017 11:03:09;course;Paris;0.0;false commentSet
-2017-08-02T10:30:49.186 DEBUG [model.Transaction] - 26/07/2017 11:03:09;course;Paris;-5.5;false amountSet
-2017-08-02T10:30:49.186 INFO  [model.Account] - 26/07/2017 11:03:09;course;Paris;-5.5;true add
-2017-08-02T10:30:49.187 DEBUG [model.Transaction] - 26/07/2017 11:02:49;Metro;null;0.0;false categorySet
-2017-08-02T10:30:49.187 DEBUG [model.Transaction] - 26/07/2017 11:02:49;Metro;Semaine juillet;0.0;false commentSet
-2017-08-02T10:30:49.187 DEBUG [model.Transaction] - 26/07/2017 11:02:49;Metro;Semaine juillet;-22.15;false amountSet
-2017-08-02T10:30:49.188 INFO  [model.Account] - 26/07/2017 11:02:49;Metro;Semaine juillet;-22.15;true add
-2017-08-02T10:30:49.188 DEBUG [model.Transaction] - 26/07/2017 11:02:28;équipement;null;0.0;false categorySet
-2017-08-02T10:30:49.189 DEBUG [model.Transaction] - 26/07/2017 11:02:28;équipement;Vers mesureur;0.0;false commentSet
-2017-08-02T10:30:49.189 DEBUG [model.Transaction] - 26/07/2017 11:02:28;équipement;Vers mesureur;-5.99;false amountSet
-2017-08-02T10:30:49.189 INFO  [model.Account] - 26/07/2017 11:02:28;équipement;Vers mesureur;-5.99;true add
-2017-08-02T10:30:49.189 DEBUG [model.Transaction] - 26/07/2017 11:01:59;course;null;0.0;false categorySet
-2017-08-02T10:30:49.190 DEBUG [model.Transaction] - 26/07/2017 11:01:59;course;Paris;0.0;false commentSet
-2017-08-02T10:30:49.190 DEBUG [model.Transaction] - 26/07/2017 11:01:59;course;Paris;-2.95;false amountSet
-2017-08-02T10:30:49.190 INFO  [model.Account] - 26/07/2017 11:01:59;course;Paris;-2.95;true add
-2017-08-02T10:30:49.191 DEBUG [model.Transaction] - 26/07/2017 11:01:41;course;null;0.0;false categorySet
-2017-08-02T10:30:49.191 DEBUG [model.Transaction] - 26/07/2017 11:01:41;course;Paris;0.0;false commentSet
-2017-08-02T10:30:49.191 DEBUG [model.Transaction] - 26/07/2017 11:01:41;course;Paris;-2.52;false amountSet
-2017-08-02T10:30:49.191 INFO  [model.Account] - 26/07/2017 11:01:41;course;Paris;-2.52;true add
-2017-08-02T10:30:49.192 DEBUG [model.Transaction] - 26/07/2017 11:01:08;Retrait;null;0.0;false categorySet
-2017-08-02T10:30:49.192 DEBUG [model.Transaction] - 26/07/2017 11:01:08;Retrait;Paris;0.0;false commentSet
-2017-08-02T10:30:49.192 DEBUG [model.Transaction] - 26/07/2017 11:01:08;Retrait;Paris;-20.0;false amountSet
-2017-08-02T10:30:49.193 INFO  [model.Account] - 26/07/2017 11:01:08;Retrait;Paris;-20.0;true add
-2017-08-02T10:30:49.193 DEBUG [model.Transaction] - 26/07/2017 11:00:27;Train;null;0.0;false categorySet
-2017-08-02T10:30:49.193 DEBUG [model.Transaction] - 26/07/2017 11:00:27;Train;Paris->Rennes;0.0;false commentSet
-2017-08-02T10:30:49.193 DEBUG [model.Transaction] - 26/07/2017 11:00:27;Train;Paris->Rennes;-37.0;false amountSet
-2017-08-02T10:30:49.194 INFO  [model.Account] - 26/07/2017 11:00:27;Train;Paris->Rennes;-37.0;true add
-2017-08-02T10:30:49.194 DEBUG [model.Transaction] - 26/07/2017 11:00:00;course;null;0.0;false categorySet
-2017-08-02T10:30:49.194 DEBUG [model.Transaction] - 26/07/2017 11:00:00;course;Paris;0.0;false commentSet
-2017-08-02T10:30:49.194 DEBUG [model.Transaction] - 26/07/2017 11:00:00;course;Paris;-4.45;false amountSet
-2017-08-02T10:30:49.195 INFO  [model.Account] - 26/07/2017 11:00:00;course;Paris;-4.45;true add
-2017-08-02T10:30:49.195 DEBUG [model.Transaction] - 26/07/2017 10:59:28;restaurant;null;0.0;false categorySet
-2017-08-02T10:30:49.195 DEBUG [model.Transaction] - 26/07/2017 10:59:28;restaurant;avec Yseult;0.0;false commentSet
-2017-08-02T10:30:49.196 DEBUG [model.Transaction] - 26/07/2017 10:59:28;restaurant;avec Yseult;-23.5;false amountSet
-2017-08-02T10:30:49.196 INFO  [model.Account] - 26/07/2017 10:59:28;restaurant;avec Yseult;-23.5;true add
-2017-08-02T10:30:49.196 DEBUG [model.Transaction] - 26/07/2017 10:58:42;course;null;0.0;false categorySet
-2017-08-02T10:30:49.196 DEBUG [model.Transaction] - 26/07/2017 10:58:42;course;Rennes;0.0;false commentSet
-2017-08-02T10:30:49.197 DEBUG [model.Transaction] - 26/07/2017 10:58:42;course;Rennes;-3.42;false amountSet
-2017-08-02T10:30:49.197 INFO  [model.Account] - 26/07/2017 10:58:42;course;Rennes;-3.42;true add
-2017-08-02T10:30:49.197 DEBUG [model.Transaction] - 26/07/2017 10:58:07;course;null;0.0;false categorySet
-2017-08-02T10:30:49.198 DEBUG [model.Transaction] - 26/07/2017 10:58:07;course;Paris;0.0;false commentSet
-2017-08-02T10:30:49.198 DEBUG [model.Transaction] - 26/07/2017 10:58:07;course;Paris;-4.29;false amountSet
-2017-08-02T10:30:49.198 INFO  [model.Account] - 26/07/2017 10:58:07;course;Paris;-4.29;true add
-2017-08-02T10:30:49.198 DEBUG [model.Transaction] - 26/07/2017 10:57:47;Metro;null;0.0;false categorySet
-2017-08-02T10:30:49.199 DEBUG [model.Transaction] - 26/07/2017 10:57:47;Metro;Paris;0.0;false commentSet
-2017-08-02T10:30:49.199 DEBUG [model.Transaction] - 26/07/2017 10:57:47;Metro;Paris;-14.5;false amountSet
-2017-08-02T10:30:49.199 INFO  [model.Account] - 26/07/2017 10:57:47;Metro;Paris;-14.5;true add
-2017-08-02T10:30:49.200 DEBUG [model.Transaction] - 26/07/2017 10:57:03;Metro;null;0.0;false categorySet
-2017-08-02T10:30:49.200 DEBUG [model.Transaction] - 26/07/2017 10:57:03;Metro;Paris;0.0;false commentSet
-2017-08-02T10:30:49.200 DEBUG [model.Transaction] - 26/07/2017 10:57:03;Metro;Paris;-7.3;false amountSet
-2017-08-02T10:30:49.200 INFO  [model.Account] - 26/07/2017 10:57:03;Metro;Paris;-7.3;true add
-2017-08-02T10:30:49.201 DEBUG [model.Transaction] - 26/07/2017 10:56:38;course;null;0.0;false categorySet
-2017-08-02T10:30:49.201 DEBUG [model.Transaction] - 26/07/2017 10:56:38;course;Paris;0.0;false commentSet
-2017-08-02T10:30:49.201 DEBUG [model.Transaction] - 26/07/2017 10:56:38;course;Paris;-8.56;false amountSet
-2017-08-02T10:30:49.201 INFO  [model.Account] - 26/07/2017 10:56:38;course;Paris;-8.56;true add
-2017-08-02T10:30:49.202 DEBUG [model.Transaction] - 26/07/2017 10:56:06;Metro;null;0.0;false categorySet
-2017-08-02T10:30:49.202 DEBUG [model.Transaction] - 26/07/2017 10:56:06;Metro;Paris<->Versaille;0.0;false commentSet
-2017-08-02T10:30:49.202 DEBUG [model.Transaction] - 26/07/2017 10:56:06;Metro;Paris<->Versaille;-7.1;false amountSet
-2017-08-02T10:30:49.202 INFO  [model.Account] - 26/07/2017 10:56:06;Metro;Paris<->Versaille;-7.1;true add
-2017-08-02T10:30:49.203 DEBUG [model.Transaction] - 18/07/2017 06:35:27;course;null;0.0;false categorySet
-2017-08-02T10:30:49.203 DEBUG [model.Transaction] - 18/07/2017 06:35:27;course;Paris;0.0;false commentSet
-2017-08-02T10:30:49.204 DEBUG [model.Transaction] - 18/07/2017 06:35:27;course;Paris;-4.79;false amountSet
-2017-08-02T10:30:49.204 INFO  [model.Account] - 18/07/2017 06:35:27;course;Paris;-4.79;true add
-2017-08-02T10:30:49.206 DEBUG [model.Transaction] - 18/07/2017 06:34:58;course;null;0.0;false categorySet
-2017-08-02T10:30:49.206 DEBUG [model.Transaction] - 18/07/2017 06:34:58;course;Paris;0.0;false commentSet
-2017-08-02T10:30:49.206 DEBUG [model.Transaction] - 18/07/2017 06:34:58;course;Paris;-6.13;false amountSet
-2017-08-02T10:30:49.208 INFO  [model.Account] - 18/07/2017 06:34:58;course;Paris;-6.13;true add
-2017-08-02T10:30:49.208 DEBUG [model.Transaction] - 18/07/2017 06:30:01;Train;null;0.0;false categorySet
-2017-08-02T10:30:49.208 DEBUG [model.Transaction] - 18/07/2017 06:30:01;Train;Vannes->Rennes;0.0;false commentSet
-2017-08-02T10:30:49.209 DEBUG [model.Transaction] - 18/07/2017 06:30:01;Train;Vannes->Rennes;-15.0;false amountSet
-2017-08-02T10:30:49.209 INFO  [model.Account] - 18/07/2017 06:30:01;Train;Vannes->Rennes;-15.0;true add
-2017-08-02T10:30:49.209 DEBUG [model.Transaction] - 18/07/2017 06:29:26;course;null;0.0;false categorySet
-2017-08-02T10:30:49.209 DEBUG [model.Transaction] - 18/07/2017 06:29:26;course;Paris;0.0;false commentSet
-2017-08-02T10:30:49.210 DEBUG [model.Transaction] - 18/07/2017 06:29:26;course;Paris;-29.95;false amountSet
-2017-08-02T10:30:49.210 INFO  [model.Account] - 18/07/2017 06:29:26;course;Paris;-29.95;true add
-2017-08-02T10:30:49.210 DEBUG [model.Transaction] - 18/07/2017 06:27:42;Metro;null;0.0;false categorySet
-2017-08-02T10:30:49.210 DEBUG [model.Transaction] - 18/07/2017 06:27:42;Metro;Paris;0.0;false commentSet
-2017-08-02T10:30:49.211 DEBUG [model.Transaction] - 18/07/2017 06:27:42;Metro;Paris;-14.5;false amountSet
-2017-08-02T10:30:49.211 INFO  [model.Account] - 18/07/2017 06:27:42;Metro;Paris;-14.5;true add
-2017-08-02T10:30:49.211 DEBUG [model.Transaction] - 15/07/2017 19:57:43;Essence;null;0.0;false categorySet
-2017-08-02T10:30:49.211 DEBUG [model.Transaction] - 15/07/2017 19:57:43;Essence;Etel;0.0;false commentSet
-2017-08-02T10:30:49.212 DEBUG [model.Transaction] - 15/07/2017 19:57:43;Essence;Etel;-20.02;false amountSet
-2017-08-02T10:30:49.212 INFO  [model.Account] - 15/07/2017 19:57:43;Essence;Etel;-20.02;true add
-2017-08-02T10:30:49.212 DEBUG [model.Transaction] - 15/07/2017 19:55:41;Livre;null;0.0;false categorySet
-2017-08-02T10:30:49.212 DEBUG [model.Transaction] - 15/07/2017 19:55:41;Livre;Livre c++;0.0;false commentSet
-2017-08-02T10:30:49.213 DEBUG [model.Transaction] - 15/07/2017 19:55:41;Livre;Livre c++;-29.9;false amountSet
-2017-08-02T10:30:49.213 INFO  [model.Account] - 15/07/2017 19:55:41;Livre;Livre c++;-29.9;true add
-2017-08-02T10:30:49.213 DEBUG [model.Transaction] - 15/07/2017 19:54:57;course;null;0.0;false categorySet
-2017-08-02T10:30:49.213 DEBUG [model.Transaction] - 15/07/2017 19:54:57;course;carrefourmarket;0.0;false commentSet
-2017-08-02T10:30:49.223 DEBUG [model.Transaction] - 15/07/2017 19:54:57;course;carrefourmarket;-20.69;false amountSet
-2017-08-02T10:30:49.223 INFO  [model.Account] - 15/07/2017 19:54:57;course;carrefourmarket;-20.69;true add
-2017-08-02T10:30:49.224 DEBUG [model.Transaction] - 15/07/2017 13:22:00;autre;null;0.0;false categorySet
-2017-08-02T10:30:49.224 DEBUG [model.Transaction] - 15/07/2017 13:22:00;autre;Début;0.0;false commentSet
-2017-08-02T10:30:49.224 DEBUG [model.Transaction] - 15/07/2017 13:22:00;autre;Début;286.2;false amountSet
-2017-08-02T10:30:49.224 INFO  [model.Account] - 15/07/2017 13:22:00;autre;Début;286.2;true add
-2017-08-02T10:30:49.225 INFO  [controller.User] - account add
-2017-08-02T10:30:49.225 DEBUG [model.Transaction] - 15/07/2017 13:19:58;autre;null;0.0;false categorySet
-2017-08-02T10:30:49.225 DEBUG [model.Transaction] - 15/07/2017 13:19:58;autre;Début;0.0;false commentSet
-2017-08-02T10:30:49.226 DEBUG [model.Transaction] - 15/07/2017 13:19:58;autre;Début;1719.59;false amountSet
-2017-08-02T10:30:49.226 INFO  [model.Account] - 15/07/2017 13:19:58;autre;Début;1719.59;true add
-2017-08-02T10:30:49.226 INFO  [controller.User] - account add
-2017-08-02T10:30:49.226 DEBUG [model.Transaction] - 01/08/2017 09:43:12;Transfert;null;0.0;false categorySet
-2017-08-02T10:30:49.227 DEBUG [model.Transaction] - 01/08/2017 09:43:12;Transfert;to 000---------90;0.0;false commentSet
-2017-08-02T10:30:49.227 DEBUG [model.Transaction] - 01/08/2017 09:43:12;Transfert;to 000---------90;-350.0;false amountSet
-2017-08-02T10:30:49.227 INFO  [model.Account] - 01/08/2017 09:43:12;Transfert;to 000---------90;-350.0;true add
-2017-08-02T10:30:49.227 DEBUG [model.Transaction] - 26/07/2017 11:05:38;Transfert;null;0.0;false categorySet
-2017-08-02T10:30:49.228 DEBUG [model.Transaction] - 26/07/2017 11:05:38;Transfert;to 000---------90;0.0;false commentSet
-2017-08-02T10:30:49.228 DEBUG [model.Transaction] - 26/07/2017 11:05:38;Transfert;to 000---------90;-350.0;false amountSet
-2017-08-02T10:30:49.228 INFO  [model.Account] - 26/07/2017 11:05:38;Transfert;to 000---------90;-350.0;true add
-2017-08-02T10:30:49.228 DEBUG [model.Transaction] - 15/07/2017 13:22:38;autre;null;0.0;false categorySet
-2017-08-02T10:30:49.228 DEBUG [model.Transaction] - 15/07/2017 13:22:38;autre;Début;0.0;false commentSet
-2017-08-02T10:30:49.229 DEBUG [model.Transaction] - 15/07/2017 13:22:38;autre;Début;4120.37;false amountSet
-2017-08-02T10:30:49.229 INFO  [model.Account] - 15/07/2017 13:22:38;autre;Début;4120.37;true add
-2017-08-02T10:30:50.070 DEBUG [model.Transaction] - 02/08/2017 10:30:50;;null;0.0;false categorySet
-2017-08-02T10:30:50.070 DEBUG [model.Transaction] - 02/08/2017 10:30:50;;;0.0;false commentSet
-2017-08-02T10:30:50.070 DEBUG [model.Transaction] - 02/08/2017 10:30:50;;;10.0;false amountSet
-2017-08-02T10:30:53.224 DEBUG [model.Transaction] - 02/08/2017 10:30:53;;null;0.0;false categorySet
-2017-08-02T10:30:53.224 DEBUG [model.Transaction] - 02/08/2017 10:30:53;;;0.0;false commentSet
-2017-08-02T10:30:53.224 DEBUG [model.Transaction] - 02/08/2017 10:30:53;;;10.0;false amountSet
-2017-08-02T10:30:55.853 DEBUG [model.Transaction] - 02/08/2017 10:30:55;;null;0.0;false categorySet
-2017-08-02T10:30:55.853 DEBUG [model.Transaction] - 02/08/2017 10:30:55;;;0.0;false commentSet
-2017-08-02T10:30:55.853 DEBUG [model.Transaction] - 02/08/2017 10:30:55;;;10.0;false amountSet
+2017-08-11T09:21:08.061 INFO  [controller.User] - Application start
+2017-08-11T09:21:08.062 INFO  [controller.User] - Init user
+2017-08-11T09:21:08.065 INFO  [controller.User] - account add
+2017-08-11T09:21:08.069 DEBUG [model.Transaction] - 08/08/2017 14:11:58;course;null;0.0;false categorySet
+2017-08-11T09:21:08.069 DEBUG [model.Transaction] - 08/08/2017 14:11:58;course;Rennes;0.0;false commentSet
+2017-08-11T09:21:08.071 DEBUG [model.Transaction] - 08/08/2017 14:11:58;course;Rennes;-2.17;false amountSet
+2017-08-11T09:21:08.073 INFO  [model.Account] - 08/08/2017 14:11:58;course;Rennes;-2.17;true add
+2017-08-11T09:21:08.074 DEBUG [model.Transaction] - 08/08/2017 14:11:29;Transfert;null;0.0;false categorySet
+2017-08-11T09:21:08.074 DEBUG [model.Transaction] - 08/08/2017 14:11:29;Transfert;amaury;0.0;false commentSet
+2017-08-11T09:21:08.074 DEBUG [model.Transaction] - 08/08/2017 14:11:29;Transfert;amaury;400.0;false amountSet
+2017-08-11T09:21:08.075 INFO  [model.Account] - 08/08/2017 14:11:29;Transfert;amaury;400.0;true add
+2017-08-11T09:21:08.075 DEBUG [model.Transaction] - 06/08/2017 09:20:29;course;null;0.0;false categorySet
+2017-08-11T09:21:08.076 DEBUG [model.Transaction] - 06/08/2017 09:20:29;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.076 DEBUG [model.Transaction] - 06/08/2017 09:20:29;course;Paris;-5.41;false amountSet
+2017-08-11T09:21:08.076 INFO  [model.Account] - 06/08/2017 09:20:29;course;Paris;-5.41;true add
+2017-08-11T09:21:08.077 DEBUG [model.Transaction] - 06/08/2017 09:19:43;Train;null;0.0;false categorySet
+2017-08-11T09:21:08.077 DEBUG [model.Transaction] - 06/08/2017 09:19:43;Train;Paris -> Rennes;0.0;false commentSet
+2017-08-11T09:21:08.077 DEBUG [model.Transaction] - 06/08/2017 09:19:43;Train;Paris -> Rennes;-32.0;false amountSet
+2017-08-11T09:21:08.078 INFO  [model.Account] - 06/08/2017 09:19:43;Train;Paris -> Rennes;-32.0;true add
+2017-08-11T09:21:08.078 DEBUG [model.Transaction] - 06/08/2017 09:19:22;Santé;null;0.0;false categorySet
+2017-08-11T09:21:08.078 DEBUG [model.Transaction] - 06/08/2017 09:19:22;Santé;Remb. SMEBA;0.0;false commentSet
+2017-08-11T09:21:08.079 DEBUG [model.Transaction] - 06/08/2017 09:19:22;Santé;Remb. SMEBA;2.24;false amountSet
+2017-08-11T09:21:08.079 INFO  [model.Account] - 06/08/2017 09:19:22;Santé;Remb. SMEBA;2.24;true add
+2017-08-11T09:21:08.079 DEBUG [model.Transaction] - 06/08/2017 09:16:13;Livre;null;0.0;false categorySet
+2017-08-11T09:21:08.080 DEBUG [model.Transaction] - 06/08/2017 09:16:13;Livre;la procure;0.0;false commentSet
+2017-08-11T09:21:08.080 DEBUG [model.Transaction] - 06/08/2017 09:16:13;Livre;la procure;-13.5;false amountSet
+2017-08-11T09:21:08.080 INFO  [model.Account] - 06/08/2017 09:16:13;Livre;la procure;-13.5;true add
+2017-08-11T09:21:08.081 DEBUG [model.Transaction] - 06/08/2017 09:15:22;Banque;null;0.0;false categorySet
+2017-08-11T09:21:08.081 DEBUG [model.Transaction] - 06/08/2017 09:15:22;Banque;Cotisation Csca Option 3 Avec Dnc ;0.0;false commentSet
+2017-08-11T09:21:08.081 DEBUG [model.Transaction] - 06/08/2017 09:15:22;Banque;Cotisation Csca Option 3 Avec Dnc ;-4.4;false amountSet
+2017-08-11T09:21:08.082 INFO  [model.Account] - 06/08/2017 09:15:22;Banque;Cotisation Csca Option 3 Avec Dnc ;-4.4;true add
+2017-08-11T09:21:08.082 DEBUG [model.Transaction] - 06/08/2017 09:09:02;course;null;0.0;false categorySet
+2017-08-11T09:21:08.082 DEBUG [model.Transaction] - 06/08/2017 09:09:02;course;Rennes;0.0;false commentSet
+2017-08-11T09:21:08.083 DEBUG [model.Transaction] - 06/08/2017 09:09:02;course;Rennes;-7.57;false amountSet
+2017-08-11T09:21:08.084 DEBUG [model.Transaction] - course/null/0.0/null categorySet
+2017-08-11T09:21:08.084 DEBUG [model.Transaction] - course/EMMENTAL RP ST ZIP/0.0/null commentSet
+2017-08-11T09:21:08.085 DEBUG [model.Transaction] - course/EMMENTAL RP ST ZIP/-1.62/null amountSet
+2017-08-11T09:21:08.085 DEBUG [model.Transaction] - course/null/0.0/null categorySet
+2017-08-11T09:21:08.085 DEBUG [model.Transaction] - course/CAFE SAN MARCO/0.0/null commentSet
+2017-08-11T09:21:08.085 DEBUG [model.Transaction] - course/CAFE SAN MARCO/-3.24/null amountSet
+2017-08-11T09:21:08.086 DEBUG [model.Transaction] - produit soin perso/null/0.0/null categorySet
+2017-08-11T09:21:08.086 DEBUG [model.Transaction] - produit soin perso/GEL RASAGE MENNEN/0.0/null commentSet
+2017-08-11T09:21:08.086 DEBUG [model.Transaction] - produit soin perso/GEL RASAGE MENNEN/-2.72/null amountSet
+2017-08-11T09:21:08.086 INFO  [model.Account] - 06/08/2017 09:09:02;course;Rennes;-7.57;true;course/EMMENTAL RP ST ZIP/-1.62/g|160.0;course/CAFE SAN MARCO/-3.24/g|250.0;produit soin perso/GEL RASAGE MENNEN/-2.72/pcs|1.0 add
+2017-08-11T09:21:08.087 DEBUG [model.Transaction] - 01/08/2017 16:47:19;course;null;0.0;false categorySet
+2017-08-11T09:21:08.087 DEBUG [model.Transaction] - 01/08/2017 16:47:19;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.088 DEBUG [model.Transaction] - 01/08/2017 16:47:19;course;Paris;-7.06;false amountSet
+2017-08-11T09:21:08.088 DEBUG [model.Transaction] - course/null/0.0/null categorySet
+2017-08-11T09:21:08.088 DEBUG [model.Transaction] - course/MONOP 1-2ECR 50CL/0.0/null commentSet
+2017-08-11T09:21:08.088 DEBUG [model.Transaction] - course/MONOP 1-2ECR 50CL/-1.4/null amountSet
+2017-08-11T09:21:08.089 DEBUG [model.Transaction] - course/null/0.0/null categorySet
+2017-08-11T09:21:08.089 DEBUG [model.Transaction] - course/TOMATE GRAPPE/0.0/null commentSet
+2017-08-11T09:21:08.089 DEBUG [model.Transaction] - course/TOMATE GRAPPE/-0.67/null amountSet
+2017-08-11T09:21:08.089 DEBUG [model.Transaction] - équipement/null/0.0/null categorySet
+2017-08-11T09:21:08.090 DEBUG [model.Transaction] - équipement/Couteau à dent/0.0/null commentSet
+2017-08-11T09:21:08.090 DEBUG [model.Transaction] - équipement/Couteau à dent/-4.99/null amountSet
+2017-08-11T09:21:08.090 INFO  [model.Account] - 01/08/2017 16:47:19;course;Paris;-7.06;true;course/MONOP 1-2ECR 50CL/-1.4/L|1.0;course/TOMATE GRAPPE/-0.67/g|520.0;équipement/Couteau à dent/-4.99/pcs|1.0 add
+2017-08-11T09:21:08.091 DEBUG [model.Transaction] - 01/08/2017 16:46:57;Livre;null;0.0;false categorySet
+2017-08-11T09:21:08.091 DEBUG [model.Transaction] - 01/08/2017 16:46:57;Livre;HTML et CSS;0.0;false commentSet
+2017-08-11T09:21:08.091 DEBUG [model.Transaction] - 01/08/2017 16:46:57;Livre;HTML et CSS;-5.0;false amountSet
+2017-08-11T09:21:08.092 INFO  [model.Account] - 01/08/2017 16:46:57;Livre;HTML et CSS;-5.0;true add
+2017-08-11T09:21:08.092 DEBUG [model.Transaction] - 01/08/2017 09:43:12;Transfert;null;0.0;false categorySet
+2017-08-11T09:21:08.092 DEBUG [model.Transaction] - 01/08/2017 09:43:12;Transfert;from 4-----------8;0.0;false commentSet
+2017-08-11T09:21:08.093 DEBUG [model.Transaction] - 01/08/2017 09:43:12;Transfert;from 4-----------8;350.0;false amountSet
+2017-08-11T09:21:08.093 INFO  [model.Account] - 01/08/2017 09:43:12;Transfert;from 4-----------8;350.0;true add
+2017-08-11T09:21:08.094 DEBUG [model.Transaction] - 01/08/2017 09:42:54;Metro;null;0.0;false categorySet
+2017-08-11T09:21:08.094 DEBUG [model.Transaction] - 01/08/2017 09:42:54;Metro;semaine 31/07 au 6/08;0.0;false commentSet
+2017-08-11T09:21:08.094 DEBUG [model.Transaction] - 01/08/2017 09:42:54;Metro;semaine 31/07 au 6/08;-22.15;false amountSet
+2017-08-11T09:21:08.095 INFO  [model.Account] - 01/08/2017 09:42:54;Metro;semaine 31/07 au 6/08;-22.15;true add
+2017-08-11T09:21:08.095 DEBUG [model.Transaction] - 01/08/2017 09:42:00;course;null;0.0;false categorySet
+2017-08-11T09:21:08.095 DEBUG [model.Transaction] - 01/08/2017 09:42:00;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.096 DEBUG [model.Transaction] - 01/08/2017 09:42:00;course;Paris;-6.11;false amountSet
+2017-08-11T09:21:08.096 INFO  [model.Account] - 01/08/2017 09:42:00;course;Paris;-6.11;true add
+2017-08-11T09:21:08.096 DEBUG [model.Transaction] - 01/08/2017 09:30:57;telphone;null;0.0;false categorySet
+2017-08-11T09:21:08.097 DEBUG [model.Transaction] - 01/08/2017 09:30:57;telphone;facture;0.0;false commentSet
+2017-08-11T09:21:08.097 DEBUG [model.Transaction] - 01/08/2017 09:30:57;telphone;facture;-25.0;false amountSet
+2017-08-11T09:21:08.097 INFO  [model.Account] - 01/08/2017 09:30:57;telphone;facture;-25.0;true add
+2017-08-11T09:21:08.098 DEBUG [model.Transaction] - 30/07/2017 14:54:51;course;null;0.0;false categorySet
+2017-08-11T09:21:08.098 DEBUG [model.Transaction] - 30/07/2017 14:54:51;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.098 DEBUG [model.Transaction] - 30/07/2017 14:54:51;course;Paris;-3.29;false amountSet
+2017-08-11T09:21:08.098 DEBUG [model.Transaction] - course/null/0.0/null categorySet
+2017-08-11T09:21:08.099 DEBUG [model.Transaction] - course/FLAMMEKUECH LAR.OI/0.0/null commentSet
+2017-08-11T09:21:08.099 DEBUG [model.Transaction] - course/FLAMMEKUECH LAR.OI/-3.29/null amountSet
+2017-08-11T09:21:08.099 INFO  [model.Account] - 30/07/2017 14:54:51;course;Paris;-3.29;true;course/FLAMMEKUECH LAR.OI/-3.29/pcs|1.0 add
+2017-08-11T09:21:08.100 DEBUG [model.Transaction] - 29/07/2017 17:46:39;course;null;0.0;false categorySet
+2017-08-11T09:21:08.100 DEBUG [model.Transaction] - 29/07/2017 17:46:39;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.100 DEBUG [model.Transaction] - 29/07/2017 17:46:39;course;Paris;-30.25;false amountSet
+2017-08-11T09:21:08.100 INFO  [model.Account] - 29/07/2017 17:46:39;course;Paris;-30.25;true add
+2017-08-11T09:21:08.101 DEBUG [model.Transaction] - 29/07/2017 17:42:58;course;null;0.0;false categorySet
+2017-08-11T09:21:08.101 DEBUG [model.Transaction] - 29/07/2017 17:42:58;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.101 DEBUG [model.Transaction] - 29/07/2017 17:42:58;course;Paris;-22.19;false amountSet
+2017-08-11T09:21:08.101 DEBUG [model.Transaction] - course/null/0.0/null categorySet
+2017-08-11T09:21:08.102 DEBUG [model.Transaction] - course/TOMATE GRAPPE/0.0/null commentSet
+2017-08-11T09:21:08.102 DEBUG [model.Transaction] - course/TOMATE GRAPPE/-1.84/null amountSet
+2017-08-11T09:21:08.102 DEBUG [model.Transaction] - produits entretien/null/0.0/null categorySet
+2017-08-11T09:21:08.102 DEBUG [model.Transaction] - produits entretien/VANISH DETACH PIST/0.0/null commentSet
+2017-08-11T09:21:08.103 DEBUG [model.Transaction] - produits entretien/VANISH DETACH PIST/-6.11/null amountSet
+2017-08-11T09:21:08.103 DEBUG [model.Transaction] - course/null/0.0/null categorySet
+2017-08-11T09:21:08.103 DEBUG [model.Transaction] - course/BISC. TAB. CHOC LAIT/0.0/null commentSet
+2017-08-11T09:21:08.103 DEBUG [model.Transaction] - course/BISC. TAB. CHOC LAIT/-0.75/null amountSet
+2017-08-11T09:21:08.103 DEBUG [model.Transaction] - produits entretien/null/0.0/null categorySet
+2017-08-11T09:21:08.104 DEBUG [model.Transaction] - produits entretien/SKIP LESS TABLET A/0.0/null commentSet
+2017-08-11T09:21:08.104 DEBUG [model.Transaction] - produits entretien/SKIP LESS TABLET A/-10.79/null amountSet
+2017-08-11T09:21:08.104 INFO  [model.Account] - 29/07/2017 17:42:58;course;Paris;-22.19;true;course/TOMATE GRAPPE/-1.84/Kg|0.74;produits entretien/VANISH DETACH PIST/-6.11/sachet|1.0;course/BISC. TAB. CHOC LAIT/-0.75/pcs|1.0;produits entretien/SKIP LESS TABLET A/-10.79/sachets|28.0 add
+2017-08-11T09:21:08.105 DEBUG [model.Transaction] - 29/07/2017 17:33:49;coiffeur;null;0.0;false categorySet
+2017-08-11T09:21:08.105 DEBUG [model.Transaction] - 29/07/2017 17:33:49;coiffeur;Paris;0.0;false commentSet
+2017-08-11T09:21:08.105 DEBUG [model.Transaction] - 29/07/2017 17:33:49;coiffeur;Paris;-26.0;false amountSet
+2017-08-11T09:21:08.105 INFO  [model.Account] - 29/07/2017 17:33:49;coiffeur;Paris;-26.0;true add
+2017-08-11T09:21:08.106 DEBUG [model.Transaction] - 29/07/2017 16:38:55;équipement;null;0.0;false categorySet
+2017-08-11T09:21:08.106 DEBUG [model.Transaction] - 29/07/2017 16:38:55;équipement;balance;0.0;false commentSet
+2017-08-11T09:21:08.106 DEBUG [model.Transaction] - 29/07/2017 16:38:55;équipement;balance;-14.99;false amountSet
+2017-08-11T09:21:08.108 INFO  [model.Account] - 29/07/2017 16:38:55;équipement;balance;-14.99;true add
+2017-08-11T09:21:08.109 DEBUG [model.Transaction] - 29/07/2017 16:38:08;vetement;null;0.0;false categorySet
+2017-08-11T09:21:08.109 DEBUG [model.Transaction] - 29/07/2017 16:38:08;vetement;pantalon;0.0;false commentSet
+2017-08-11T09:21:08.110 DEBUG [model.Transaction] - 29/07/2017 16:38:08;vetement;pantalon;-129.0;false amountSet
+2017-08-11T09:21:08.110 INFO  [model.Account] - 29/07/2017 16:38:08;vetement;pantalon;-129.0;true add
+2017-08-11T09:21:08.111 DEBUG [model.Transaction] - 27/07/2017 17:00:28;Retrait;null;0.0;false categorySet
+2017-08-11T09:21:08.111 DEBUG [model.Transaction] - 27/07/2017 17:00:28;Retrait;Paris;0.0;false commentSet
+2017-08-11T09:21:08.112 DEBUG [model.Transaction] - 27/07/2017 17:00:28;Retrait;Paris;-20.0;false amountSet
+2017-08-11T09:21:08.112 DEBUG [model.Transaction] - piscine/null/0.0/null categorySet
+2017-08-11T09:21:08.112 DEBUG [model.Transaction] - piscine/Paris/0.0/null commentSet
+2017-08-11T09:21:08.113 DEBUG [model.Transaction] - piscine/Paris/-3.5/null amountSet
+2017-08-11T09:21:08.113 DEBUG [model.Transaction] - Bar/null/0.0/null categorySet
+2017-08-11T09:21:08.113 DEBUG [model.Transaction] - Bar/Paris/0.0/null commentSet
+2017-08-11T09:21:08.113 DEBUG [model.Transaction] - Bar/Paris/-10.0/null amountSet
+2017-08-11T09:21:08.114 INFO  [model.Account] - 27/07/2017 17:00:28;Retrait;Paris;-20.0;true;piscine/Paris/-3.5/pcs|1.0;Bar/Paris/-10.0/pcs|1.0 add
+2017-08-11T09:21:08.115 DEBUG [model.Transaction] - 27/07/2017 15:20:49;extra course;null;0.0;false categorySet
+2017-08-11T09:21:08.115 DEBUG [model.Transaction] - 27/07/2017 15:20:49;extra course;Petit déjeuner;0.0;false commentSet
+2017-08-11T09:21:08.115 DEBUG [model.Transaction] - 27/07/2017 15:20:49;extra course;Petit déjeuner;-2.9;false amountSet
+2017-08-11T09:21:08.116 INFO  [model.Account] - 27/07/2017 15:20:49;extra course;Petit déjeuner;-2.9;true add
+2017-08-11T09:21:08.116 DEBUG [model.Transaction] - 27/07/2017 10:59:58;informatique;null;0.0;false categorySet
+2017-08-11T09:21:08.116 DEBUG [model.Transaction] - 27/07/2017 10:59:58;informatique;Clez USB 3.0;0.0;false commentSet
+2017-08-11T09:21:08.116 DEBUG [model.Transaction] - 27/07/2017 10:59:58;informatique;Clez USB 3.0;-12.99;false amountSet
+2017-08-11T09:21:08.117 INFO  [model.Account] - 27/07/2017 10:59:58;informatique;Clez USB 3.0;-12.99;true add
+2017-08-11T09:21:08.117 DEBUG [model.Transaction] - 27/07/2017 07:48:57;Santé;null;0.0;false categorySet
+2017-08-11T09:21:08.117 DEBUG [model.Transaction] - 27/07/2017 07:48:57;Santé;medecin;0.0;false commentSet
+2017-08-11T09:21:08.118 DEBUG [model.Transaction] - 27/07/2017 07:48:57;Santé;medecin;-25.0;false amountSet
+2017-08-11T09:21:08.118 INFO  [model.Account] - 27/07/2017 07:48:57;Santé;medecin;-25.0;true add
+2017-08-11T09:21:08.118 DEBUG [model.Transaction] - 27/07/2017 07:48:36;course;null;0.0;false categorySet
+2017-08-11T09:21:08.119 DEBUG [model.Transaction] - 27/07/2017 07:48:36;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.119 DEBUG [model.Transaction] - 27/07/2017 07:48:36;course;Paris;-2.45;false amountSet
+2017-08-11T09:21:08.119 INFO  [model.Account] - 27/07/2017 07:48:36;course;Paris;-2.45;true add
+2017-08-11T09:21:08.119 DEBUG [model.Transaction] - 26/07/2017 16:40:33;course;null;0.0;false categorySet
+2017-08-11T09:21:08.120 DEBUG [model.Transaction] - 26/07/2017 16:40:33;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.120 DEBUG [model.Transaction] - 26/07/2017 16:40:33;course;Paris;-4.78;false amountSet
+2017-08-11T09:21:08.120 INFO  [model.Account] - 26/07/2017 16:40:33;course;Paris;-4.78;true add
+2017-08-11T09:21:08.120 DEBUG [model.Transaction] - 26/07/2017 11:05:38;Transfert;null;0.0;false categorySet
+2017-08-11T09:21:08.121 DEBUG [model.Transaction] - 26/07/2017 11:05:38;Transfert;from 4-------------8;0.0;false commentSet
+2017-08-11T09:21:08.121 DEBUG [model.Transaction] - 26/07/2017 11:05:38;Transfert;from 4-------------8;350.0;false amountSet
+2017-08-11T09:21:08.121 INFO  [model.Account] - 26/07/2017 11:05:38;Transfert;from 4-------------8;350.0;true add
+2017-08-11T09:21:08.122 DEBUG [model.Transaction] - 26/07/2017 11:03:39;course;null;0.0;false categorySet
+2017-08-11T09:21:08.122 DEBUG [model.Transaction] - 26/07/2017 11:03:39;course;Pairs;0.0;false commentSet
+2017-08-11T09:21:08.122 DEBUG [model.Transaction] - 26/07/2017 11:03:39;course;Pairs;-32.52;false amountSet
+2017-08-11T09:21:08.122 INFO  [model.Account] - 26/07/2017 11:03:39;course;Pairs;-32.52;true add
+2017-08-11T09:21:08.123 DEBUG [model.Transaction] - 26/07/2017 11:03:09;course;null;0.0;false categorySet
+2017-08-11T09:21:08.123 DEBUG [model.Transaction] - 26/07/2017 11:03:09;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.123 DEBUG [model.Transaction] - 26/07/2017 11:03:09;course;Paris;-5.5;false amountSet
+2017-08-11T09:21:08.123 INFO  [model.Account] - 26/07/2017 11:03:09;course;Paris;-5.5;true add
+2017-08-11T09:21:08.124 DEBUG [model.Transaction] - 26/07/2017 11:02:49;Metro;null;0.0;false categorySet
+2017-08-11T09:21:08.124 DEBUG [model.Transaction] - 26/07/2017 11:02:49;Metro;Semaine juillet;0.0;false commentSet
+2017-08-11T09:21:08.124 DEBUG [model.Transaction] - 26/07/2017 11:02:49;Metro;Semaine juillet;-22.15;false amountSet
+2017-08-11T09:21:08.125 INFO  [model.Account] - 26/07/2017 11:02:49;Metro;Semaine juillet;-22.15;true add
+2017-08-11T09:21:08.125 DEBUG [model.Transaction] - 26/07/2017 11:02:28;équipement;null;0.0;false categorySet
+2017-08-11T09:21:08.125 DEBUG [model.Transaction] - 26/07/2017 11:02:28;équipement;Vers mesureur;0.0;false commentSet
+2017-08-11T09:21:08.125 DEBUG [model.Transaction] - 26/07/2017 11:02:28;équipement;Vers mesureur;-5.99;false amountSet
+2017-08-11T09:21:08.126 INFO  [model.Account] - 26/07/2017 11:02:28;équipement;Vers mesureur;-5.99;true add
+2017-08-11T09:21:08.126 DEBUG [model.Transaction] - 26/07/2017 11:01:59;course;null;0.0;false categorySet
+2017-08-11T09:21:08.126 DEBUG [model.Transaction] - 26/07/2017 11:01:59;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.126 DEBUG [model.Transaction] - 26/07/2017 11:01:59;course;Paris;-2.95;false amountSet
+2017-08-11T09:21:08.127 INFO  [model.Account] - 26/07/2017 11:01:59;course;Paris;-2.95;true add
+2017-08-11T09:21:08.127 DEBUG [model.Transaction] - 26/07/2017 11:01:41;course;null;0.0;false categorySet
+2017-08-11T09:21:08.129 DEBUG [model.Transaction] - 26/07/2017 11:01:41;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.129 DEBUG [model.Transaction] - 26/07/2017 11:01:41;course;Paris;-2.52;false amountSet
+2017-08-11T09:21:08.129 INFO  [model.Account] - 26/07/2017 11:01:41;course;Paris;-2.52;true add
+2017-08-11T09:21:08.130 DEBUG [model.Transaction] - 26/07/2017 11:01:08;Retrait;null;0.0;false categorySet
+2017-08-11T09:21:08.130 DEBUG [model.Transaction] - 26/07/2017 11:01:08;Retrait;Paris;0.0;false commentSet
+2017-08-11T09:21:08.130 DEBUG [model.Transaction] - 26/07/2017 11:01:08;Retrait;Paris;-20.0;false amountSet
+2017-08-11T09:21:08.130 INFO  [model.Account] - 26/07/2017 11:01:08;Retrait;Paris;-20.0;true add
+2017-08-11T09:21:08.131 DEBUG [model.Transaction] - 26/07/2017 11:00:27;Train;null;0.0;false categorySet
+2017-08-11T09:21:08.131 DEBUG [model.Transaction] - 26/07/2017 11:00:27;Train;Paris->Rennes;0.0;false commentSet
+2017-08-11T09:21:08.131 DEBUG [model.Transaction] - 26/07/2017 11:00:27;Train;Paris->Rennes;-37.0;false amountSet
+2017-08-11T09:21:08.131 INFO  [model.Account] - 26/07/2017 11:00:27;Train;Paris->Rennes;-37.0;true add
+2017-08-11T09:21:08.132 DEBUG [model.Transaction] - 26/07/2017 11:00:00;course;null;0.0;false categorySet
+2017-08-11T09:21:08.132 DEBUG [model.Transaction] - 26/07/2017 11:00:00;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.132 DEBUG [model.Transaction] - 26/07/2017 11:00:00;course;Paris;-4.45;false amountSet
+2017-08-11T09:21:08.132 INFO  [model.Account] - 26/07/2017 11:00:00;course;Paris;-4.45;true add
+2017-08-11T09:21:08.133 DEBUG [model.Transaction] - 26/07/2017 10:59:28;restaurant;null;0.0;false categorySet
+2017-08-11T09:21:08.133 DEBUG [model.Transaction] - 26/07/2017 10:59:28;restaurant;avec Yseult;0.0;false commentSet
+2017-08-11T09:21:08.133 DEBUG [model.Transaction] - 26/07/2017 10:59:28;restaurant;avec Yseult;-23.5;false amountSet
+2017-08-11T09:21:08.133 INFO  [model.Account] - 26/07/2017 10:59:28;restaurant;avec Yseult;-23.5;true add
+2017-08-11T09:21:08.134 DEBUG [model.Transaction] - 26/07/2017 10:58:42;course;null;0.0;false categorySet
+2017-08-11T09:21:08.134 DEBUG [model.Transaction] - 26/07/2017 10:58:42;course;Rennes;0.0;false commentSet
+2017-08-11T09:21:08.134 DEBUG [model.Transaction] - 26/07/2017 10:58:42;course;Rennes;-3.42;false amountSet
+2017-08-11T09:21:08.134 INFO  [model.Account] - 26/07/2017 10:58:42;course;Rennes;-3.42;true add
+2017-08-11T09:21:08.135 DEBUG [model.Transaction] - 26/07/2017 10:58:07;course;null;0.0;false categorySet
+2017-08-11T09:21:08.135 DEBUG [model.Transaction] - 26/07/2017 10:58:07;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.135 DEBUG [model.Transaction] - 26/07/2017 10:58:07;course;Paris;-4.29;false amountSet
+2017-08-11T09:21:08.135 INFO  [model.Account] - 26/07/2017 10:58:07;course;Paris;-4.29;true add
+2017-08-11T09:21:08.136 DEBUG [model.Transaction] - 26/07/2017 10:57:47;Metro;null;0.0;false categorySet
+2017-08-11T09:21:08.136 DEBUG [model.Transaction] - 26/07/2017 10:57:47;Metro;Paris;0.0;false commentSet
+2017-08-11T09:21:08.136 DEBUG [model.Transaction] - 26/07/2017 10:57:47;Metro;Paris;-14.5;false amountSet
+2017-08-11T09:21:08.136 INFO  [model.Account] - 26/07/2017 10:57:47;Metro;Paris;-14.5;true add
+2017-08-11T09:21:08.137 DEBUG [model.Transaction] - 26/07/2017 10:57:03;Metro;null;0.0;false categorySet
+2017-08-11T09:21:08.137 DEBUG [model.Transaction] - 26/07/2017 10:57:03;Metro;Paris;0.0;false commentSet
+2017-08-11T09:21:08.137 DEBUG [model.Transaction] - 26/07/2017 10:57:03;Metro;Paris;-7.3;false amountSet
+2017-08-11T09:21:08.137 INFO  [model.Account] - 26/07/2017 10:57:03;Metro;Paris;-7.3;true add
+2017-08-11T09:21:08.137 DEBUG [model.Transaction] - 26/07/2017 10:56:38;course;null;0.0;false categorySet
+2017-08-11T09:21:08.138 DEBUG [model.Transaction] - 26/07/2017 10:56:38;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.138 DEBUG [model.Transaction] - 26/07/2017 10:56:38;course;Paris;-8.56;false amountSet
+2017-08-11T09:21:08.138 INFO  [model.Account] - 26/07/2017 10:56:38;course;Paris;-8.56;true add
+2017-08-11T09:21:08.138 DEBUG [model.Transaction] - 26/07/2017 10:56:06;Metro;null;0.0;false categorySet
+2017-08-11T09:21:08.140 DEBUG [model.Transaction] - 26/07/2017 10:56:06;Metro;Paris<->Versaille;0.0;false commentSet
+2017-08-11T09:21:08.140 DEBUG [model.Transaction] - 26/07/2017 10:56:06;Metro;Paris<->Versaille;-7.1;false amountSet
+2017-08-11T09:21:08.140 INFO  [model.Account] - 26/07/2017 10:56:06;Metro;Paris<->Versaille;-7.1;true add
+2017-08-11T09:21:08.141 DEBUG [model.Transaction] - 18/07/2017 06:35:27;course;null;0.0;false categorySet
+2017-08-11T09:21:08.141 DEBUG [model.Transaction] - 18/07/2017 06:35:27;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.141 DEBUG [model.Transaction] - 18/07/2017 06:35:27;course;Paris;-4.79;false amountSet
+2017-08-11T09:21:08.141 INFO  [model.Account] - 18/07/2017 06:35:27;course;Paris;-4.79;true add
+2017-08-11T09:21:08.142 DEBUG [model.Transaction] - 18/07/2017 06:34:58;course;null;0.0;false categorySet
+2017-08-11T09:21:08.142 DEBUG [model.Transaction] - 18/07/2017 06:34:58;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.142 DEBUG [model.Transaction] - 18/07/2017 06:34:58;course;Paris;-6.13;false amountSet
+2017-08-11T09:21:08.142 INFO  [model.Account] - 18/07/2017 06:34:58;course;Paris;-6.13;true add
+2017-08-11T09:21:08.142 DEBUG [model.Transaction] - 18/07/2017 06:30:01;Train;null;0.0;false categorySet
+2017-08-11T09:21:08.143 DEBUG [model.Transaction] - 18/07/2017 06:30:01;Train;Vannes->Rennes;0.0;false commentSet
+2017-08-11T09:21:08.143 DEBUG [model.Transaction] - 18/07/2017 06:30:01;Train;Vannes->Rennes;-15.0;false amountSet
+2017-08-11T09:21:08.143 INFO  [model.Account] - 18/07/2017 06:30:01;Train;Vannes->Rennes;-15.0;true add
+2017-08-11T09:21:08.143 DEBUG [model.Transaction] - 18/07/2017 06:29:26;course;null;0.0;false categorySet
+2017-08-11T09:21:08.144 DEBUG [model.Transaction] - 18/07/2017 06:29:26;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.144 DEBUG [model.Transaction] - 18/07/2017 06:29:26;course;Paris;-29.95;false amountSet
+2017-08-11T09:21:08.144 INFO  [model.Account] - 18/07/2017 06:29:26;course;Paris;-29.95;true add
+2017-08-11T09:21:08.144 DEBUG [model.Transaction] - 18/07/2017 06:27:42;Metro;null;0.0;false categorySet
+2017-08-11T09:21:08.145 DEBUG [model.Transaction] - 18/07/2017 06:27:42;Metro;Paris;0.0;false commentSet
+2017-08-11T09:21:08.145 DEBUG [model.Transaction] - 18/07/2017 06:27:42;Metro;Paris;-14.5;false amountSet
+2017-08-11T09:21:08.145 INFO  [model.Account] - 18/07/2017 06:27:42;Metro;Paris;-14.5;true add
+2017-08-11T09:21:08.146 DEBUG [model.Transaction] - 15/07/2017 19:57:43;Essence;null;0.0;false categorySet
+2017-08-11T09:21:08.146 DEBUG [model.Transaction] - 15/07/2017 19:57:43;Essence;Etel;0.0;false commentSet
+2017-08-11T09:21:08.146 DEBUG [model.Transaction] - 15/07/2017 19:57:43;Essence;Etel;-20.02;false amountSet
+2017-08-11T09:21:08.146 INFO  [model.Account] - 15/07/2017 19:57:43;Essence;Etel;-20.02;true add
+2017-08-11T09:21:08.146 DEBUG [model.Transaction] - 15/07/2017 19:55:41;Livre;null;0.0;false categorySet
+2017-08-11T09:21:08.147 DEBUG [model.Transaction] - 15/07/2017 19:55:41;Livre;Livre c++;0.0;false commentSet
+2017-08-11T09:21:08.147 DEBUG [model.Transaction] - 15/07/2017 19:55:41;Livre;Livre c++;-29.9;false amountSet
+2017-08-11T09:21:08.147 INFO  [model.Account] - 15/07/2017 19:55:41;Livre;Livre c++;-29.9;true add
+2017-08-11T09:21:08.147 DEBUG [model.Transaction] - 15/07/2017 19:54:57;course;null;0.0;false categorySet
+2017-08-11T09:21:08.148 DEBUG [model.Transaction] - 15/07/2017 19:54:57;course;carrefourmarket;0.0;false commentSet
+2017-08-11T09:21:08.148 DEBUG [model.Transaction] - 15/07/2017 19:54:57;course;carrefourmarket;-20.69;false amountSet
+2017-08-11T09:21:08.148 INFO  [model.Account] - 15/07/2017 19:54:57;course;carrefourmarket;-20.69;true add
+2017-08-11T09:21:08.149 DEBUG [model.Transaction] - 15/07/2017 13:22:00;autre;null;0.0;false categorySet
+2017-08-11T09:21:08.151 DEBUG [model.Transaction] - 15/07/2017 13:22:00;autre;Début;0.0;false commentSet
+2017-08-11T09:21:08.151 DEBUG [model.Transaction] - 15/07/2017 13:22:00;autre;Début;286.2;false amountSet
+2017-08-11T09:21:08.154 INFO  [model.Account] - 15/07/2017 13:22:00;autre;Début;286.2;true add
+2017-08-11T09:21:08.154 INFO  [controller.User] - account add
+2017-08-11T09:21:08.155 DEBUG [model.Transaction] - 15/07/2017 13:19:58;autre;null;0.0;false categorySet
+2017-08-11T09:21:08.155 DEBUG [model.Transaction] - 15/07/2017 13:19:58;autre;Début;0.0;false commentSet
+2017-08-11T09:21:08.155 DEBUG [model.Transaction] - 15/07/2017 13:19:58;autre;Début;1719.59;false amountSet
+2017-08-11T09:21:08.155 INFO  [model.Account] - 15/07/2017 13:19:58;autre;Début;1719.59;true add
+2017-08-11T09:21:08.156 INFO  [controller.User] - account add
+2017-08-11T09:21:08.156 DEBUG [model.Transaction] - 01/08/2017 09:43:12;Transfert;null;0.0;false categorySet
+2017-08-11T09:21:08.156 DEBUG [model.Transaction] - 01/08/2017 09:43:12;Transfert;to 000---------90;0.0;false commentSet
+2017-08-11T09:21:08.157 DEBUG [model.Transaction] - 01/08/2017 09:43:12;Transfert;to 000---------90;-350.0;false amountSet
+2017-08-11T09:21:08.157 INFO  [model.Account] - 01/08/2017 09:43:12;Transfert;to 000---------90;-350.0;true add
+2017-08-11T09:21:08.157 DEBUG [model.Transaction] - 26/07/2017 11:05:38;Transfert;null;0.0;false categorySet
+2017-08-11T09:21:08.157 DEBUG [model.Transaction] - 26/07/2017 11:05:38;Transfert;to 000---------90;0.0;false commentSet
+2017-08-11T09:21:08.157 DEBUG [model.Transaction] - 26/07/2017 11:05:38;Transfert;to 000---------90;-350.0;false amountSet
+2017-08-11T09:21:08.158 INFO  [model.Account] - 26/07/2017 11:05:38;Transfert;to 000---------90;-350.0;true add
+2017-08-11T09:21:08.158 DEBUG [model.Transaction] - 15/07/2017 13:22:38;autre;null;0.0;false categorySet
+2017-08-11T09:21:08.158 DEBUG [model.Transaction] - 15/07/2017 13:22:38;autre;Début;0.0;false commentSet
+2017-08-11T09:21:08.158 DEBUG [model.Transaction] - 15/07/2017 13:22:38;autre;Début;4120.37;false amountSet
+2017-08-11T09:21:08.158 INFO  [model.Account] - 15/07/2017 13:22:38;autre;Début;4120.37;true add
+2017-08-11T09:21:08.159 DEBUG [model.Transaction] - 08/08/2017 14:11:58;course;null;0.0;false categorySet
+2017-08-11T09:21:08.160 DEBUG [model.Transaction] - 08/08/2017 14:11:58;course;Rennes;0.0;false commentSet
+2017-08-11T09:21:08.160 DEBUG [model.Transaction] - 08/08/2017 14:11:58;course;Rennes;-2.17;false amountSet
+2017-08-11T09:21:08.160 DEBUG [model.Transaction] - 08/08/2017 14:11:29;Transfert;null;0.0;false categorySet
+2017-08-11T09:21:08.160 DEBUG [model.Transaction] - 08/08/2017 14:11:29;Transfert;amaury;0.0;false commentSet
+2017-08-11T09:21:08.161 DEBUG [model.Transaction] - 08/08/2017 14:11:29;Transfert;amaury;400.0;false amountSet
+2017-08-11T09:21:08.161 DEBUG [model.Transaction] - 06/08/2017 09:20:29;course;null;0.0;false categorySet
+2017-08-11T09:21:08.161 DEBUG [model.Transaction] - 06/08/2017 09:20:29;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.161 DEBUG [model.Transaction] - 06/08/2017 09:20:29;course;Paris;-5.41;false amountSet
+2017-08-11T09:21:08.161 DEBUG [model.Transaction] - 06/08/2017 09:19:43;Train;null;0.0;false categorySet
+2017-08-11T09:21:08.162 DEBUG [model.Transaction] - 06/08/2017 09:19:43;Train;Paris -> Rennes;0.0;false commentSet
+2017-08-11T09:21:08.162 DEBUG [model.Transaction] - 06/08/2017 09:19:43;Train;Paris -> Rennes;-32.0;false amountSet
+2017-08-11T09:21:08.162 DEBUG [model.Transaction] - 06/08/2017 09:19:22;Santé;null;0.0;false categorySet
+2017-08-11T09:21:08.162 DEBUG [model.Transaction] - 06/08/2017 09:19:22;Santé;Remb. SMEBA;0.0;false commentSet
+2017-08-11T09:21:08.162 DEBUG [model.Transaction] - 06/08/2017 09:19:22;Santé;Remb. SMEBA;2.24;false amountSet
+2017-08-11T09:21:08.162 DEBUG [model.Transaction] - 06/08/2017 09:16:13;Livre;null;0.0;false categorySet
+2017-08-11T09:21:08.163 DEBUG [model.Transaction] - 06/08/2017 09:16:13;Livre;la procure;0.0;false commentSet
+2017-08-11T09:21:08.163 DEBUG [model.Transaction] - 06/08/2017 09:16:13;Livre;la procure;-13.5;false amountSet
+2017-08-11T09:21:08.163 DEBUG [model.Transaction] - 06/08/2017 09:15:22;Banque;null;0.0;false categorySet
+2017-08-11T09:21:08.163 DEBUG [model.Transaction] - 06/08/2017 09:15:22;Banque;Cotisation Csca Option 3 Avec Dnc ;0.0;false commentSet
+2017-08-11T09:21:08.163 DEBUG [model.Transaction] - 06/08/2017 09:15:22;Banque;Cotisation Csca Option 3 Avec Dnc ;-4.4;false amountSet
+2017-08-11T09:21:08.164 DEBUG [model.Transaction] - 06/08/2017 09:09:02;course;null;0.0;false categorySet
+2017-08-11T09:21:08.164 DEBUG [model.Transaction] - 06/08/2017 09:09:02;course;Rennes;0.0;false commentSet
+2017-08-11T09:21:08.164 DEBUG [model.Transaction] - 06/08/2017 09:09:02;course;Rennes;-7.57;false amountSet
+2017-08-11T09:21:08.165 DEBUG [model.Transaction] - course/null/0.0/null categorySet
+2017-08-11T09:21:08.165 DEBUG [model.Transaction] - course/EMMENTAL RP ST ZIP/0.0/null commentSet
+2017-08-11T09:21:08.165 DEBUG [model.Transaction] - course/EMMENTAL RP ST ZIP/-1.62/null amountSet
+2017-08-11T09:21:08.165 DEBUG [model.Transaction] - course/null/0.0/null categorySet
+2017-08-11T09:21:08.165 DEBUG [model.Transaction] - course/CAFE SAN MARCO/0.0/null commentSet
+2017-08-11T09:21:08.165 DEBUG [model.Transaction] - course/CAFE SAN MARCO/-3.24/null amountSet
+2017-08-11T09:21:08.166 DEBUG [model.Transaction] - produit soin perso/null/0.0/null categorySet
+2017-08-11T09:21:08.166 DEBUG [model.Transaction] - produit soin perso/GEL RASAGE MENNEN/0.0/null commentSet
+2017-08-11T09:21:08.166 DEBUG [model.Transaction] - produit soin perso/GEL RASAGE MENNEN/-2.72/null amountSet
+2017-08-11T09:21:08.166 DEBUG [model.Transaction] - 01/08/2017 16:47:19;course;null;0.0;false categorySet
+2017-08-11T09:21:08.166 DEBUG [model.Transaction] - 01/08/2017 16:47:19;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.167 DEBUG [model.Transaction] - 01/08/2017 16:47:19;course;Paris;-7.06;false amountSet
+2017-08-11T09:21:08.167 DEBUG [model.Transaction] - course/null/0.0/null categorySet
+2017-08-11T09:21:08.167 DEBUG [model.Transaction] - course/MONOP 1-2ECR 50CL/0.0/null commentSet
+2017-08-11T09:21:08.167 DEBUG [model.Transaction] - course/MONOP 1-2ECR 50CL/-1.4/null amountSet
+2017-08-11T09:21:08.167 DEBUG [model.Transaction] - course/null/0.0/null categorySet
+2017-08-11T09:21:08.168 DEBUG [model.Transaction] - course/TOMATE GRAPPE/0.0/null commentSet
+2017-08-11T09:21:08.168 DEBUG [model.Transaction] - course/TOMATE GRAPPE/-0.67/null amountSet
+2017-08-11T09:21:08.168 DEBUG [model.Transaction] - équipement/null/0.0/null categorySet
+2017-08-11T09:21:08.168 DEBUG [model.Transaction] - équipement/Couteau à dent/0.0/null commentSet
+2017-08-11T09:21:08.168 DEBUG [model.Transaction] - équipement/Couteau à dent/-4.99/null amountSet
+2017-08-11T09:21:08.168 DEBUG [model.Transaction] - 01/08/2017 16:46:57;Livre;null;0.0;false categorySet
+2017-08-11T09:21:08.169 DEBUG [model.Transaction] - 01/08/2017 16:46:57;Livre;HTML et CSS;0.0;false commentSet
+2017-08-11T09:21:08.169 DEBUG [model.Transaction] - 01/08/2017 16:46:57;Livre;HTML et CSS;-5.0;false amountSet
+2017-08-11T09:21:08.169 DEBUG [model.Transaction] - 01/08/2017 09:43:12;Transfert;null;0.0;false categorySet
+2017-08-11T09:21:08.169 DEBUG [model.Transaction] - 01/08/2017 09:43:12;Transfert;from 4-----------8;0.0;false commentSet
+2017-08-11T09:21:08.169 DEBUG [model.Transaction] - 01/08/2017 09:43:12;Transfert;from 4-----------8;350.0;false amountSet
+2017-08-11T09:21:08.170 DEBUG [model.Transaction] - 01/08/2017 09:42:54;Metro;null;0.0;false categorySet
+2017-08-11T09:21:08.170 DEBUG [model.Transaction] - 01/08/2017 09:42:54;Metro;semaine 31/07 au 6/08;0.0;false commentSet
+2017-08-11T09:21:08.170 DEBUG [model.Transaction] - 01/08/2017 09:42:54;Metro;semaine 31/07 au 6/08;-22.15;false amountSet
+2017-08-11T09:21:08.170 DEBUG [model.Transaction] - 01/08/2017 09:42:00;course;null;0.0;false categorySet
+2017-08-11T09:21:08.171 DEBUG [model.Transaction] - 01/08/2017 09:42:00;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.171 DEBUG [model.Transaction] - 01/08/2017 09:42:00;course;Paris;-6.11;false amountSet
+2017-08-11T09:21:08.171 DEBUG [model.Transaction] - 01/08/2017 09:30:57;telphone;null;0.0;false categorySet
+2017-08-11T09:21:08.171 DEBUG [model.Transaction] - 01/08/2017 09:30:57;telphone;facture;0.0;false commentSet
+2017-08-11T09:21:08.171 DEBUG [model.Transaction] - 01/08/2017 09:30:57;telphone;facture;-25.0;false amountSet
+2017-08-11T09:21:08.172 DEBUG [model.Transaction] - 30/07/2017 14:54:51;course;null;0.0;false categorySet
+2017-08-11T09:21:08.172 DEBUG [model.Transaction] - 30/07/2017 14:54:51;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.174 DEBUG [model.Transaction] - 30/07/2017 14:54:51;course;Paris;-3.29;false amountSet
+2017-08-11T09:21:08.176 DEBUG [model.Transaction] - course/null/0.0/null categorySet
+2017-08-11T09:21:08.176 DEBUG [model.Transaction] - course/FLAMMEKUECH LAR.OI/0.0/null commentSet
+2017-08-11T09:21:08.176 DEBUG [model.Transaction] - course/FLAMMEKUECH LAR.OI/-3.29/null amountSet
+2017-08-11T09:21:08.176 DEBUG [model.Transaction] - 29/07/2017 17:46:39;course;null;0.0;false categorySet
+2017-08-11T09:21:08.176 DEBUG [model.Transaction] - 29/07/2017 17:46:39;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.177 DEBUG [model.Transaction] - 29/07/2017 17:46:39;course;Paris;-30.25;false amountSet
+2017-08-11T09:21:08.178 DEBUG [model.Transaction] - 29/07/2017 17:42:58;course;null;0.0;false categorySet
+2017-08-11T09:21:08.179 DEBUG [model.Transaction] - 29/07/2017 17:42:58;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.179 DEBUG [model.Transaction] - 29/07/2017 17:42:58;course;Paris;-22.19;false amountSet
+2017-08-11T09:21:08.180 DEBUG [model.Transaction] - course/null/0.0/null categorySet
+2017-08-11T09:21:08.180 DEBUG [model.Transaction] - course/TOMATE GRAPPE/0.0/null commentSet
+2017-08-11T09:21:08.180 DEBUG [model.Transaction] - course/TOMATE GRAPPE/-1.84/null amountSet
+2017-08-11T09:21:08.180 DEBUG [model.Transaction] - produits entretien/null/0.0/null categorySet
+2017-08-11T09:21:08.180 DEBUG [model.Transaction] - produits entretien/VANISH DETACH PIST/0.0/null commentSet
+2017-08-11T09:21:08.181 DEBUG [model.Transaction] - produits entretien/VANISH DETACH PIST/-6.11/null amountSet
+2017-08-11T09:21:08.183 DEBUG [model.Transaction] - course/null/0.0/null categorySet
+2017-08-11T09:21:08.183 DEBUG [model.Transaction] - course/BISC. TAB. CHOC LAIT/0.0/null commentSet
+2017-08-11T09:21:08.183 DEBUG [model.Transaction] - course/BISC. TAB. CHOC LAIT/-0.75/null amountSet
+2017-08-11T09:21:08.183 DEBUG [model.Transaction] - produits entretien/null/0.0/null categorySet
+2017-08-11T09:21:08.183 DEBUG [model.Transaction] - produits entretien/SKIP LESS TABLET A/0.0/null commentSet
+2017-08-11T09:21:08.184 DEBUG [model.Transaction] - produits entretien/SKIP LESS TABLET A/-10.79/null amountSet
+2017-08-11T09:21:08.201 DEBUG [model.Transaction] - 29/07/2017 17:33:49;coiffeur;null;0.0;false categorySet
+2017-08-11T09:21:08.201 DEBUG [model.Transaction] - 29/07/2017 17:33:49;coiffeur;Paris;0.0;false commentSet
+2017-08-11T09:21:08.202 DEBUG [model.Transaction] - 29/07/2017 17:33:49;coiffeur;Paris;-26.0;false amountSet
+2017-08-11T09:21:08.203 DEBUG [model.Transaction] - 29/07/2017 16:38:55;équipement;null;0.0;false categorySet
+2017-08-11T09:21:08.203 DEBUG [model.Transaction] - 29/07/2017 16:38:55;équipement;balance;0.0;false commentSet
+2017-08-11T09:21:08.203 DEBUG [model.Transaction] - 29/07/2017 16:38:55;équipement;balance;-14.99;false amountSet
+2017-08-11T09:21:08.212 DEBUG [model.Transaction] - 29/07/2017 16:38:08;vetement;null;0.0;false categorySet
+2017-08-11T09:21:08.212 DEBUG [model.Transaction] - 29/07/2017 16:38:08;vetement;pantalon;0.0;false commentSet
+2017-08-11T09:21:08.212 DEBUG [model.Transaction] - 29/07/2017 16:38:08;vetement;pantalon;-129.0;false amountSet
+2017-08-11T09:21:08.213 DEBUG [model.Transaction] - 27/07/2017 17:00:28;Retrait;null;0.0;false categorySet
+2017-08-11T09:21:08.216 DEBUG [model.Transaction] - 27/07/2017 17:00:28;Retrait;Paris;0.0;false commentSet
+2017-08-11T09:21:08.216 DEBUG [model.Transaction] - 27/07/2017 17:00:28;Retrait;Paris;-20.0;false amountSet
+2017-08-11T09:21:08.216 DEBUG [model.Transaction] - piscine/null/0.0/null categorySet
+2017-08-11T09:21:08.217 DEBUG [model.Transaction] - piscine/Paris/0.0/null commentSet
+2017-08-11T09:21:08.217 DEBUG [model.Transaction] - piscine/Paris/-3.5/null amountSet
+2017-08-11T09:21:08.217 DEBUG [model.Transaction] - Bar/null/0.0/null categorySet
+2017-08-11T09:21:08.217 DEBUG [model.Transaction] - Bar/Paris/0.0/null commentSet
+2017-08-11T09:21:08.217 DEBUG [model.Transaction] - Bar/Paris/-10.0/null amountSet
+2017-08-11T09:21:08.217 DEBUG [model.Transaction] - 27/07/2017 15:20:49;extra course;null;0.0;false categorySet
+2017-08-11T09:21:08.218 DEBUG [model.Transaction] - 27/07/2017 15:20:49;extra course;Petit déjeuner;0.0;false commentSet
+2017-08-11T09:21:08.218 DEBUG [model.Transaction] - 27/07/2017 15:20:49;extra course;Petit déjeuner;-2.9;false amountSet
+2017-08-11T09:21:08.218 DEBUG [model.Transaction] - 27/07/2017 10:59:58;informatique;null;0.0;false categorySet
+2017-08-11T09:21:08.218 DEBUG [model.Transaction] - 27/07/2017 10:59:58;informatique;Clez USB 3.0;0.0;false commentSet
+2017-08-11T09:21:08.218 DEBUG [model.Transaction] - 27/07/2017 10:59:58;informatique;Clez USB 3.0;-12.99;false amountSet
+2017-08-11T09:21:08.218 DEBUG [model.Transaction] - 27/07/2017 07:48:57;Santé;null;0.0;false categorySet
+2017-08-11T09:21:08.219 DEBUG [model.Transaction] - 27/07/2017 07:48:57;Santé;medecin;0.0;false commentSet
+2017-08-11T09:21:08.219 DEBUG [model.Transaction] - 27/07/2017 07:48:57;Santé;medecin;-25.0;false amountSet
+2017-08-11T09:21:08.219 DEBUG [model.Transaction] - 27/07/2017 07:48:36;course;null;0.0;false categorySet
+2017-08-11T09:21:08.219 DEBUG [model.Transaction] - 27/07/2017 07:48:36;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.219 DEBUG [model.Transaction] - 27/07/2017 07:48:36;course;Paris;-2.45;false amountSet
+2017-08-11T09:21:08.220 DEBUG [model.Transaction] - 26/07/2017 16:40:33;course;null;0.0;false categorySet
+2017-08-11T09:21:08.220 DEBUG [model.Transaction] - 26/07/2017 16:40:33;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.220 DEBUG [model.Transaction] - 26/07/2017 16:40:33;course;Paris;-4.78;false amountSet
+2017-08-11T09:21:08.220 DEBUG [model.Transaction] - 26/07/2017 11:05:38;Transfert;null;0.0;false categorySet
+2017-08-11T09:21:08.221 DEBUG [model.Transaction] - 26/07/2017 11:05:38;Transfert;from 4-------------8;0.0;false commentSet
+2017-08-11T09:21:08.221 DEBUG [model.Transaction] - 26/07/2017 11:05:38;Transfert;from 4-------------8;350.0;false amountSet
+2017-08-11T09:21:08.221 DEBUG [model.Transaction] - 26/07/2017 11:03:39;course;null;0.0;false categorySet
+2017-08-11T09:21:08.221 DEBUG [model.Transaction] - 26/07/2017 11:03:39;course;Pairs;0.0;false commentSet
+2017-08-11T09:21:08.221 DEBUG [model.Transaction] - 26/07/2017 11:03:39;course;Pairs;-32.52;false amountSet
+2017-08-11T09:21:08.222 DEBUG [model.Transaction] - 26/07/2017 11:03:09;course;null;0.0;false categorySet
+2017-08-11T09:21:08.222 DEBUG [model.Transaction] - 26/07/2017 11:03:09;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.222 DEBUG [model.Transaction] - 26/07/2017 11:03:09;course;Paris;-5.5;false amountSet
+2017-08-11T09:21:08.223 DEBUG [model.Transaction] - 26/07/2017 11:02:49;Metro;null;0.0;false categorySet
+2017-08-11T09:21:08.223 DEBUG [model.Transaction] - 26/07/2017 11:02:49;Metro;Semaine juillet;0.0;false commentSet
+2017-08-11T09:21:08.223 DEBUG [model.Transaction] - 26/07/2017 11:02:49;Metro;Semaine juillet;-22.15;false amountSet
+2017-08-11T09:21:08.223 DEBUG [model.Transaction] - 26/07/2017 11:02:28;équipement;null;0.0;false categorySet
+2017-08-11T09:21:08.223 DEBUG [model.Transaction] - 26/07/2017 11:02:28;équipement;Vers mesureur;0.0;false commentSet
+2017-08-11T09:21:08.224 DEBUG [model.Transaction] - 26/07/2017 11:02:28;équipement;Vers mesureur;-5.99;false amountSet
+2017-08-11T09:21:08.224 DEBUG [model.Transaction] - 26/07/2017 11:01:59;course;null;0.0;false categorySet
+2017-08-11T09:21:08.224 DEBUG [model.Transaction] - 26/07/2017 11:01:59;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.224 DEBUG [model.Transaction] - 26/07/2017 11:01:59;course;Paris;-2.95;false amountSet
+2017-08-11T09:21:08.224 DEBUG [model.Transaction] - 26/07/2017 11:01:41;course;null;0.0;false categorySet
+2017-08-11T09:21:08.224 DEBUG [model.Transaction] - 26/07/2017 11:01:41;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.225 DEBUG [model.Transaction] - 26/07/2017 11:01:41;course;Paris;-2.52;false amountSet
+2017-08-11T09:21:08.225 DEBUG [model.Transaction] - 26/07/2017 11:01:08;Retrait;null;0.0;false categorySet
+2017-08-11T09:21:08.225 DEBUG [model.Transaction] - 26/07/2017 11:01:08;Retrait;Paris;0.0;false commentSet
+2017-08-11T09:21:08.225 DEBUG [model.Transaction] - 26/07/2017 11:01:08;Retrait;Paris;-20.0;false amountSet
+2017-08-11T09:21:08.225 DEBUG [model.Transaction] - 26/07/2017 11:00:27;Train;null;0.0;false categorySet
+2017-08-11T09:21:08.225 DEBUG [model.Transaction] - 26/07/2017 11:00:27;Train;Paris->Rennes;0.0;false commentSet
+2017-08-11T09:21:08.226 DEBUG [model.Transaction] - 26/07/2017 11:00:27;Train;Paris->Rennes;-37.0;false amountSet
+2017-08-11T09:21:08.226 DEBUG [model.Transaction] - 26/07/2017 11:00:00;course;null;0.0;false categorySet
+2017-08-11T09:21:08.226 DEBUG [model.Transaction] - 26/07/2017 11:00:00;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.226 DEBUG [model.Transaction] - 26/07/2017 11:00:00;course;Paris;-4.45;false amountSet
+2017-08-11T09:21:08.226 DEBUG [model.Transaction] - 26/07/2017 10:59:28;restaurant;null;0.0;false categorySet
+2017-08-11T09:21:08.226 DEBUG [model.Transaction] - 26/07/2017 10:59:28;restaurant;avec Yseult;0.0;false commentSet
+2017-08-11T09:21:08.226 DEBUG [model.Transaction] - 26/07/2017 10:59:28;restaurant;avec Yseult;-23.5;false amountSet
+2017-08-11T09:21:08.237 DEBUG [model.Transaction] - 26/07/2017 10:58:42;course;null;0.0;false categorySet
+2017-08-11T09:21:08.237 DEBUG [model.Transaction] - 26/07/2017 10:58:42;course;Rennes;0.0;false commentSet
+2017-08-11T09:21:08.237 DEBUG [model.Transaction] - 26/07/2017 10:58:42;course;Rennes;-3.42;false amountSet
+2017-08-11T09:21:08.237 DEBUG [model.Transaction] - 26/07/2017 10:58:07;course;null;0.0;false categorySet
+2017-08-11T09:21:08.238 DEBUG [model.Transaction] - 26/07/2017 10:58:07;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.238 DEBUG [model.Transaction] - 26/07/2017 10:58:07;course;Paris;-4.29;false amountSet
+2017-08-11T09:21:08.238 DEBUG [model.Transaction] - 26/07/2017 10:57:47;Metro;null;0.0;false categorySet
+2017-08-11T09:21:08.238 DEBUG [model.Transaction] - 26/07/2017 10:57:47;Metro;Paris;0.0;false commentSet
+2017-08-11T09:21:08.238 DEBUG [model.Transaction] - 26/07/2017 10:57:47;Metro;Paris;-14.5;false amountSet
+2017-08-11T09:21:08.239 DEBUG [model.Transaction] - 26/07/2017 10:57:03;Metro;null;0.0;false categorySet
+2017-08-11T09:21:08.239 DEBUG [model.Transaction] - 26/07/2017 10:57:03;Metro;Paris;0.0;false commentSet
+2017-08-11T09:21:08.239 DEBUG [model.Transaction] - 26/07/2017 10:57:03;Metro;Paris;-7.3;false amountSet
+2017-08-11T09:21:08.239 DEBUG [model.Transaction] - 26/07/2017 10:56:38;course;null;0.0;false categorySet
+2017-08-11T09:21:08.239 DEBUG [model.Transaction] - 26/07/2017 10:56:38;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.239 DEBUG [model.Transaction] - 26/07/2017 10:56:38;course;Paris;-8.56;false amountSet
+2017-08-11T09:21:08.240 DEBUG [model.Transaction] - 26/07/2017 10:56:06;Metro;null;0.0;false categorySet
+2017-08-11T09:21:08.240 DEBUG [model.Transaction] - 26/07/2017 10:56:06;Metro;Paris<->Versaille;0.0;false commentSet
+2017-08-11T09:21:08.240 DEBUG [model.Transaction] - 26/07/2017 10:56:06;Metro;Paris<->Versaille;-7.1;false amountSet
+2017-08-11T09:21:08.240 DEBUG [model.Transaction] - 18/07/2017 06:35:27;course;null;0.0;false categorySet
+2017-08-11T09:21:08.240 DEBUG [model.Transaction] - 18/07/2017 06:35:27;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.240 DEBUG [model.Transaction] - 18/07/2017 06:35:27;course;Paris;-4.79;false amountSet
+2017-08-11T09:21:08.241 DEBUG [model.Transaction] - 18/07/2017 06:34:58;course;null;0.0;false categorySet
+2017-08-11T09:21:08.241 DEBUG [model.Transaction] - 18/07/2017 06:34:58;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.241 DEBUG [model.Transaction] - 18/07/2017 06:34:58;course;Paris;-6.13;false amountSet
+2017-08-11T09:21:08.241 DEBUG [model.Transaction] - 18/07/2017 06:30:01;Train;null;0.0;false categorySet
+2017-08-11T09:21:08.241 DEBUG [model.Transaction] - 18/07/2017 06:30:01;Train;Vannes->Rennes;0.0;false commentSet
+2017-08-11T09:21:08.241 DEBUG [model.Transaction] - 18/07/2017 06:30:01;Train;Vannes->Rennes;-15.0;false amountSet
+2017-08-11T09:21:08.242 DEBUG [model.Transaction] - 18/07/2017 06:29:26;course;null;0.0;false categorySet
+2017-08-11T09:21:08.242 DEBUG [model.Transaction] - 18/07/2017 06:29:26;course;Paris;0.0;false commentSet
+2017-08-11T09:21:08.242 DEBUG [model.Transaction] - 18/07/2017 06:29:26;course;Paris;-29.95;false amountSet
+2017-08-11T09:21:08.242 DEBUG [model.Transaction] - 18/07/2017 06:27:42;Metro;null;0.0;false categorySet
+2017-08-11T09:21:08.242 DEBUG [model.Transaction] - 18/07/2017 06:27:42;Metro;Paris;0.0;false commentSet
+2017-08-11T09:21:08.242 DEBUG [model.Transaction] - 18/07/2017 06:27:42;Metro;Paris;-14.5;false amountSet
+2017-08-11T09:21:08.243 DEBUG [model.Transaction] - 15/07/2017 19:57:43;Essence;null;0.0;false categorySet
+2017-08-11T09:21:08.243 DEBUG [model.Transaction] - 15/07/2017 19:57:43;Essence;Etel;0.0;false commentSet
+2017-08-11T09:21:08.243 DEBUG [model.Transaction] - 15/07/2017 19:57:43;Essence;Etel;-20.02;false amountSet
+2017-08-11T09:21:08.243 DEBUG [model.Transaction] - 15/07/2017 19:55:41;Livre;null;0.0;false categorySet
+2017-08-11T09:21:08.243 DEBUG [model.Transaction] - 15/07/2017 19:55:41;Livre;Livre c++;0.0;false commentSet
+2017-08-11T09:21:08.243 DEBUG [model.Transaction] - 15/07/2017 19:55:41;Livre;Livre c++;-29.9;false amountSet
+2017-08-11T09:21:08.244 DEBUG [model.Transaction] - 15/07/2017 19:54:57;course;null;0.0;false categorySet
+2017-08-11T09:21:08.244 DEBUG [model.Transaction] - 15/07/2017 19:54:57;course;carrefourmarket;0.0;false commentSet
+2017-08-11T09:21:08.244 DEBUG [model.Transaction] - 15/07/2017 19:54:57;course;carrefourmarket;-20.69;false amountSet
+2017-08-11T09:21:08.244 DEBUG [model.Transaction] - 15/07/2017 13:22:00;autre;null;0.0;false categorySet
+2017-08-11T09:21:08.244 DEBUG [model.Transaction] - 15/07/2017 13:22:00;autre;Début;0.0;false commentSet
+2017-08-11T09:21:08.244 DEBUG [model.Transaction] - 15/07/2017 13:22:00;autre;Début;286.2;false amountSet
+2017-08-11T09:21:08.245 DEBUG [model.Transaction] - 15/07/2017 13:19:58;autre;null;0.0;false categorySet
+2017-08-11T09:21:08.245 DEBUG [model.Transaction] - 15/07/2017 13:19:58;autre;Début;0.0;false commentSet
+2017-08-11T09:21:08.245 DEBUG [model.Transaction] - 15/07/2017 13:19:58;autre;Début;1719.59;false amountSet
+2017-08-11T09:21:08.245 DEBUG [model.Transaction] - 01/08/2017 09:43:12;Transfert;null;0.0;false categorySet
+2017-08-11T09:21:08.245 DEBUG [model.Transaction] - 01/08/2017 09:43:12;Transfert;to 000---------90;0.0;false commentSet
+2017-08-11T09:21:08.245 DEBUG [model.Transaction] - 01/08/2017 09:43:12;Transfert;to 000---------90;-350.0;false amountSet
+2017-08-11T09:21:08.246 DEBUG [model.Transaction] - 26/07/2017 11:05:38;Transfert;null;0.0;false categorySet
+2017-08-11T09:21:08.246 DEBUG [model.Transaction] - 26/07/2017 11:05:38;Transfert;to 000---------90;0.0;false commentSet
+2017-08-11T09:21:08.246 DEBUG [model.Transaction] - 26/07/2017 11:05:38;Transfert;to 000---------90;-350.0;false amountSet
+2017-08-11T09:21:08.246 DEBUG [model.Transaction] - 15/07/2017 13:22:38;autre;null;0.0;false categorySet
+2017-08-11T09:21:08.246 DEBUG [model.Transaction] - 15/07/2017 13:22:38;autre;Début;0.0;false commentSet
+2017-08-11T09:21:08.246 DEBUG [model.Transaction] - 15/07/2017 13:22:38;autre;Début;4120.37;false amountSet
