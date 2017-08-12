@@ -50,29 +50,33 @@ public class MainWriteSeed {
 			 * fetch transaction account 1
 			 */
 			line1 = buf1.readLine();
+			List<String> lineOut = new ArrayList<String>();
 			while(line1!=null) {
 				try {
 					Transaction t = Transaction.parse(line1);
-					bufSeed.write(
-								"{account_id: 1,category: \'"+t.getCategory()+"\', "
+					lineOut.add("{account_id: 1, "
+							+ 	"date: \'"+Transaction.dateFormat.format(t.getDate())+"\', "
+							+ 	"category: \'"+t.getCategory()+"\', "
 							+	"comment: \'"+t.getComment()+"\', "
 							+	"amount: "+String.valueOf(t.getAmount()).replace(",",".")+", "
-							+	"done: "+String.valueOf(t.isDone())+"},\n");
+							+	"done: "+String.valueOf(t.isDone())+"}");
 				} catch (AmountException e) {
 					LOGGER.warn("transaction not parse for account 1", e);
 				}
 				
 				line1 = buf1.readLine();
 			}
+			
 			line1 = buf1.readLine();
 			while(line1!=null) {
 				try {
 					Transaction t = Transaction.parse(line1);
-					bufSeed.write(
-								"{account_id: 1,category: \'"+t.getCategory()+"\', "
+					lineOut.add("{account_id: 2, "
+							+ 	"date: \'"+Transaction.dateFormat.format(t.getDate())+"\', "
+							+ 	"category: \'"+t.getCategory()+"\', "
 							+	"comment: \'"+t.getComment()+"\', "
 							+	"amount: "+String.valueOf(t.getAmount()).replace(",",".")+", "
-							+	"done: "+String.valueOf(t.isDone())+"},\n");
+							+	"done: "+String.valueOf(t.isDone())+"}");
 				} catch (AmountException e) {
 					LOGGER.warn("transaction not parse for account 1", e);
 				}
@@ -83,11 +87,12 @@ public class MainWriteSeed {
 			while(line2!=null) {
 				try {
 					Transaction t = Transaction.parse(line2);
-					bufSeed.write(
-								"{account_id: 1,category: \'"+t.getCategory()+"\', "
-							+	"comment: \'"+t.getComment()+"\', "
-							+	"amount: "+String.valueOf(t.getAmount()).replace(",",".")+", "
-							+	"done: "+String.valueOf(t.isDone())+"},\n");
+					lineOut.add("{account_id: 2, "
+									+ 	"date: \'"+Transaction.dateFormat.format(t.getDate())+"\', "
+									+ 	"category: \'"+t.getCategory()+"\', "
+									+	"comment: \'"+t.getComment()+"\', "
+									+	"amount: "+String.valueOf(t.getAmount()).replace(",",".")+", "
+									+	"done: "+String.valueOf(t.isDone())+"}");
 				} catch (AmountException e) {
 					LOGGER.warn("transaction not parse for account 2", e);
 				}
@@ -98,16 +103,23 @@ public class MainWriteSeed {
 			while(line3!=null) {
 				try {
 					Transaction t = Transaction.parse(line3);
-					bufSeed.write(
-								"{account_id: 1,category: \'"+t.getCategory()+"\', "
+					lineOut.add("{account_id: 3, "
+							+ 	"date: \'"+Transaction.dateFormat.format(t.getDate())+"\', "
+							+ 	"category: \'"+t.getCategory()+"\', "
 							+	"comment: \'"+t.getComment()+"\', "
 							+	"amount: "+String.valueOf(t.getAmount()).replace(",",".")+", "
-							+	"done: "+String.valueOf(t.isDone())+"},\n");
+							+	"done: "+String.valueOf(t.isDone())+"}");
 				} catch (AmountException e) {
 					LOGGER.warn("transaction not parse for account 3", e);
 				}
-				
 				line3 = buf3.readLine();
+			}
+			for(int index = lineOut.size()-1;index>=0;index--) {
+				String st = lineOut.get(index);
+				if(index!=0) {
+					st+=",\n";
+				}
+				bufSeed.write(st);
 			}
 			bufSeed.write("])");
 			
