@@ -4,9 +4,9 @@ import java.util.Date;
 
 import javax.swing.JTable;
 
-import controller.AccountListener;
 import controller.User;
-import controller.UserListener;
+import controller.listener.AccountListener;
+import controller.listener.UserListener;
 import model.Account;
 import model.Transaction;
 

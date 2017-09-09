@@ -10,10 +10,10 @@ import javax.swing.JTable;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 
-import controller.AccountListener;
-import controller.TransactionListener;
 import controller.User;
-import controller.UserListener;
+import controller.listener.AccountListener;
+import controller.listener.TransactionListener;
+import controller.listener.UserListener;
 import ihm.swing.Window;
 import model.Account;
 import model.Transaction;

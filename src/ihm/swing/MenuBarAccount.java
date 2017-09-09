@@ -13,7 +13,7 @@ import javax.swing.JSeparator;
 import javax.swing.KeyStroke;
 
 import controller.User;
-import controller.UserListener;
+import controller.listener.UserListener;
 import model.Account;
 
 /**

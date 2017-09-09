@@ -4,10 +4,10 @@ import java.util.Date;
 
 import javax.swing.JTable;
 
-import controller.AccountListener;
-import controller.TransactionListener;
 import controller.User;
-import controller.UserListener;
+import controller.listener.AccountListener;
+import controller.listener.TransactionListener;
+import controller.listener.UserListener;
 import model.Account;
 import model.Transaction;
 import model.TransactionDetail;

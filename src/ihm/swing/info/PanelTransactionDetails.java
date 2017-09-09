@@ -24,8 +24,8 @@ import com.jgoodies.forms.layout.FormLayout;
 import com.jgoodies.forms.layout.FormSpecs;
 import com.jgoodies.forms.layout.RowSpec;
 
-import controller.TransactionListener;
 import controller.User;
+import controller.listener.TransactionListener;
 import ihm.swing.table.transaction_details.TransactionDetailsTable;
 import model.AmountException;
 import model.Transaction;

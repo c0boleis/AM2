@@ -15,7 +15,7 @@ import javax.swing.JSplitPane;
 import javax.swing.JTabbedPane;
 
 import controller.User;
-import controller.UserListener;
+import controller.listener.UserListener;
 import ihm.swing.calcul.PanelCalcul;
 import ihm.swing.info.TabInfo;
 import ihm.swing.table.account.AccountTableSwing;

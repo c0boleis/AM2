@@ -9,7 +9,7 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 
-import controller.TransactionListener;
+import controller.listener.TransactionListener;
 
 /**
  * 

@@ -6,7 +6,7 @@ import com.jgoodies.forms.layout.ColumnSpec;
 import com.jgoodies.forms.layout.RowSpec;
 
 import controller.User;
-import controller.UserListener;
+import controller.listener.UserListener;
 import model.Account;
 import model.AmountException;
 import model.Transaction;
