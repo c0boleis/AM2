@@ -206,7 +206,7 @@ public class User {
 		Account[] accountsTmp = getAccounts();
 		int index = 1;
 		for(Account account : accountsTmp) {
-			File file = new File(accountsFolder.getPath()+File.separator+"account_"+index+".txt");
+			File file = new File(accountsFolder.getPath()+File.separator+"account_"+index+".acnt");
 			try {
 				account.save(file);
 			} catch (IOException e) {
