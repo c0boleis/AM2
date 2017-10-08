@@ -3,6 +3,7 @@ package ihm.swing.info;
 import javax.swing.JScrollPane;
 import javax.swing.JTabbedPane;
 
+import ihm.PanelOCR;
 import ihm.swing.table.all_accounts.TableAllAccounts;
 
 /**
@@ -34,6 +35,7 @@ public class TabInfo extends JTabbedPane {
 		this.addTab("Categories", getPanelCategories());
 		this.addTab("Transfert", getPanelAccountTransfert());
 		this.addTab("Transaction details", getPanelTransactionDetails());
+		this.addTab("OCR", PanelOCR.get());
 	}
 
 
